@@ -1,4 +1,6 @@
 9999#INFINITY Coin#
+9998#INFINITY Coin Pouch#
+9997#INFINITY Coin Chest#
 501#Red_Potion#
 502#Orange_Potion#
 503#Yellow_Potion#

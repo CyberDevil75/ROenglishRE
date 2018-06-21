@@ -1,4 +1,6 @@
 9999#Infinity_Coin#
+9998#Infinity_Coin_Pouch#
+9997#Infinity_Coin_Chest#
 501#빨간포션#
 502#주홍포션#
 503#노란포션#
