@@ -1,3 +1,4 @@
+9999#INFINITY Coin#
 501#Red_Potion#
 502#Orange_Potion#
 503#Yellow_Potion#
@@ -16371,5 +16372,3 @@
 32202#ｻ鄰ﾋﾀﾇ_ｹﾝﾁ・
 32203#アクセラレータチップ#
 32204#不死の軍団認識票#
-9999#INFINITY Coin#
-
