@@ -297,7 +297,7 @@ Toggle Item Amount.#
 Character will be deleted after ^ff0000%d^000000 seconds. Press Cancel to quit.#
 You cannot trade more than 10 types of items per trade.#
 You are underaged.#
-Please enter the deletion password.#
+Please enter your email to confirm deletion.#
 E-mail Address (Case Sensitive).#
 Character Deletion has failed because you have entered an incorrect e-mail address.#
 Enter Second Serial Cord of your Social Security number.#
