@@ -1,13 +1,14 @@
 tb_cashshop_banner = {
 	[1] = {
-		"rAbanner.bmp",
-		"https://rathena.org/"
+		"banner1.bmp",
+		"https://www.infinityro.it/purchase/?category=1"
 	},
 	[2] = {
-		"rAbanner.bmp",
-		"https://rathena.org/"
+		"banner2.bmp",
+		"https://www.infinityro.it/purchase/?category=7"
 	},
-	[3] = { "rAbanner.bmp", "https://rathena.org/" }
+	[3] = { "banner3.bmp",
+		"https://www.infinityro.it/purchase/?category=6" }
 }
 
 function set_cashshop_banner()

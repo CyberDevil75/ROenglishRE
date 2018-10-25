@@ -3299,7 +3299,7 @@ Etc#
 Special Offers#
 Charging#
 Purchase#
-https://rathena.org/board/clients/donations/#
+https://www.infinityro.it/donate/#
 Item Search#
 Free points#
 Use Free points#
@@ -3311,7 +3311,7 @@ Star Emperor(Boy)#
 Soul Ripper(Boy)#
 Your weight limit is over %d, HP and SP will not recover naturally.#
 The number of items that can be purchased in 8.#
-https://rathena.org/board/crowdfunding/#
+https://forum.infinityro.it/#
 UNKNOWN ERROR:%d#
 NOT USER#
 THIS ACCOUNT ID IS BLOCKED#
@@ -3443,7 +3443,7 @@ Name with bad words can not be searched.#
 The party leader is in the map that can't receive request.#
 No party can be found.#
 Party request.#
-http://rathena.org#
+https://www.infinityro.it/#
 ¡ã#
 ¡å#
 You're already friends#
