@@ -1,6 +1,7 @@
 9999#Infinity_Coin#
 9998#Infinity_Coin_Pouch#
 9997#Infinity_Coin_Chest#
+50001#陵倔农扼款#
 501#弧埃器记#
 502#林全器记#
 503#畴鄂器记#
