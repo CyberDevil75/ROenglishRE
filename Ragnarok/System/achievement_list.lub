@@ -1,40 +1,4 @@
 achievement_tbl = {
-	[110000] = {
-		UI_Type = 0,
-		group = "EAT",
-		major = 4,
-		minor = 0,
-		title = "I don't want to eat anything at this time",
-		content = {
-			summary = "The Bullseye midnight snack at 1 AM",
-			details = "Bring the food to Bigfoot at this hour."
-		},
-		resource = { [1] = { text = "Bring the food to Bigfoot at this hour" } },
-		reward = {},
-		score = 10
-	},
-	[110001] = {
-		UI_Type = 0,
-		group = "SEE",
-		major = 4,
-		minor = 0,
-		title = "A fan of this polarity",
-		content = {
-			summary = "Peeking in the lives of polarity fans",
-			details = "Let's meet all the gathered polarity fans of Wigner."
-		},
-		resource = {
-			[1] = { text = "Lady of the house" },
-			[2] = { text = "Beautiful fine anak" },
-			[3] = { text = "Mistress in ambience" },
-			[4] = { text = "Beautiful wife and children" },
-			[5] = { text = "Down town Bachelor" },
-			[6] = { text = "Great act ability anak" },
-			[7] = { text = "Great attack power bachelor" }
-		},
-		reward = {},
-		score = 10
-	},
 	[120001] = {
 		UI_Type = 0,
 		group = "ADVENTURE",
@@ -4991,12 +4955,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 1",
+		title = "Reach Base Level 1",
 		content = {
-			summary = "Reaching Level 1 achievement",
-			details = "Reaching Level 1 achievement"
+			summary = "Reach Base Level 1",
+			details = "Reach Base Level 1."
 		},
-		resource = { [1] = { text = "Reaching Level 1 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 1" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5005,12 +4969,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 2",
+		title = "Reach Base Level 2",
 		content = {
-			summary = "Reaching Level 2 achievement",
-			details = "Reaching Level 2 achievement"
+			summary = "Reach Base Level 2",
+			details = "Reach Base Level 2."
 		},
-		resource = { [1] = { text = "Reaching Level 2 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 2" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5019,12 +4983,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 3",
+		title = "Reach Base Level 3",
 		content = {
-			summary = "Reaching Level 3 achievement",
-			details = "Reaching Level 3 achievement"
+			summary = "Reach Base Level 3",
+			details = "Reach Base Level 3."
 		},
-		resource = { [1] = { text = "Reaching Level 3 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 3" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5033,12 +4997,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 4",
+		title = "Reach Base Level 4",
 		content = {
-			summary = "Reaching Level 4 achievement",
-			details = "Reaching Level 4 achievement"
+			summary = "Reach Base Level 4",
+			details = "Reach Base Level 4."
 		},
-		resource = { [1] = { text = "Reaching Level 4 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 4" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5047,12 +5011,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 5",
+		title = "Reach Base Level 5",
 		content = {
-			summary = "Reaching Level 5 achievement",
-			details = "Reaching Level 5 achievement"
+			summary = "Reach Base Level 5",
+			details = "Reach Base Level 5."
 		},
-		resource = { [1] = { text = "Reaching Level 5 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 5" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5061,12 +5025,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 6",
+		title = "Reach Base Level 6",
 		content = {
-			summary = "Reaching Level 6 achievement",
-			details = "Reaching Level 6 achievement"
+			summary = "Reach Base Level 6",
+			details = "Reach Base Level 6."
 		},
-		resource = { [1] = { text = "Reaching Level 6 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 6" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5075,12 +5039,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 7",
+		title = "Reach Base Level 7",
 		content = {
-			summary = "Reaching Level 7 achievement",
-			details = "Reaching Level 7 achievement"
+			summary = "Reach Base Level 7",
+			details = "Reach Base Level 7."
 		},
-		resource = { [1] = { text = "Reaching Level 7 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 7" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5089,12 +5053,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 8",
+		title = "Reach Base Level 8",
 		content = {
-			summary = "Reaching Level 8 achievement",
-			details = "Reaching Level 8 achievement"
+			summary = "Reach Base Level 8",
+			details = "Reach Base Level 8."
 		},
-		resource = { [1] = { text = "Reaching Level 8 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 8" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5103,12 +5067,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 9",
+		title = "Reach Base Level 9",
 		content = {
-			summary = "Reaching Level 9 achievement",
-			details = "Reaching Level 9 achievement"
+			summary = "Reach Base Level 9",
+			details = "Reach Base Level 9."
 		},
-		resource = { [1] = { text = "Reaching Level 9 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 9" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5117,12 +5081,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 10",
+		title = "Reach Base Level 10",
 		content = {
-			summary = "Reaching Level 10 achievement",
-			details = "Reaching Level 10 achievement. You will be rewarded with a title."
+			summary = "Reach Base Level 10",
+			details = "Reach Base Level 10 achievement. You will be rewarded with a title."
 		},
-		resource = { [1] = { text = "Reaching Level 10 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 10" } },
 		reward = { title = 1023, buff = 12, item = 644 },
 		score = 10
 	},
@@ -5131,12 +5095,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 11",
+		title = "Reach Base Level 11",
 		content = {
-			summary = "Reaching Level 11 achievement",
-			details = "Reaching Level 11 achievement"
+			summary = "Reach Base Level 11",
+			details = "Reach Base Level 11."
 		},
-		resource = { [1] = { text = "Reaching Level 11 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 11" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5145,12 +5109,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 12",
+		title = "Reach Base Level 12",
 		content = {
-			summary = "Reaching Level 12 achievement",
-			details = "Reaching Level 12 achievement"
+			summary = "Reach Base Level 12",
+			details = "Reach Base Level 12."
 		},
-		resource = { [1] = { text = "Reaching Level 12 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 12" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5159,12 +5123,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 13",
+		title = "Reach Base Level 13",
 		content = {
-			summary = "Reaching Level 13 achievement",
-			details = "Reaching Level 13 achievement"
+			summary = "Reach Base Level 13",
+			details = "Reach Base Level 13."
 		},
-		resource = { [1] = { text = "Reaching Level 13 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 13" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5173,12 +5137,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 14",
+		title = "Reach Base Level 14",
 		content = {
-			summary = "Reaching Level 14 achievement",
-			details = "Reaching Level 14 achievement"
+			summary = "Reach Base Level 14",
+			details = "Reach Base Level 14."
 		},
-		resource = { [1] = { text = "Reaching Level 14 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 14" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5187,12 +5151,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 15",
+		title = "Reach Base Level 15",
 		content = {
-			summary = "Reaching Level 15 achievement",
-			details = "Reaching Level 15 achievement"
+			summary = "Reach Base Level 15",
+			details = "Reach Base Level 15."
 		},
-		resource = { [1] = { text = "Reaching Level 15 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 15" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5201,12 +5165,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 16",
+		title = "Reach Base Level 16",
 		content = {
-			summary = "Reaching Level 16 achievement",
-			details = "Reaching Level 16 achievement"
+			summary = "Reach Base Level 16",
+			details = "Reach Base Level 16."
 		},
-		resource = { [1] = { text = "Reaching Level 16 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 16" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5215,12 +5179,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 17",
+		title = "Reach Base Level 17",
 		content = {
-			summary = "Reaching Level 17 achievement",
-			details = "Reaching Level 17 achievement"
+			summary = "Reach Base Level 17",
+			details = "Reach Base Level 17."
 		},
-		resource = { [1] = { text = "Reaching Level 17 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 17" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5229,12 +5193,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 18",
+		title = "Reach Base Level 18",
 		content = {
-			summary = "Reaching Level 18 achievement",
-			details = "Reaching Level 18 achievement"
+			summary = "Reach Base Level 18",
+			details = "Reach Base Level 18."
 		},
-		resource = { [1] = { text = "Reaching Level 18 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 18" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5243,12 +5207,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 19",
+		title = "Reach Base Level 19",
 		content = {
-			summary = "Reaching Level 19 achievement",
-			details = "Reaching Level 19 achievement"
+			summary = "Reach Base Level 19",
+			details = "Reach Base Level 19."
 		},
-		resource = { [1] = { text = "Reaching Level 19 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 19" } },
 		reward = { buff = 12, item = 644 },
 		score = 10
 	},
@@ -5257,12 +5221,12 @@ achievement_tbl = {
 		group = "GOAL_ACHIEVE",
 		major = 6,
 		minor = 0,
-		title = "Reaching Level 20",
+		title = "Reach Base Level 20",
 		content = {
-			summary = "Reaching Level 20 achievement",
-			details = "Reaching Level 20 achievement. You will be rewarded with a title."
+			summary = "Reach Base Level 20",
+			details = "Reach Base Level 20. You will be rewarded with a title."
 		},
-		resource = { [1] = { text = "Reaching Level 20 achievement" } },
+		resource = { [1] = { text = "Reach Base Level 20" } },
 		reward = { title = 1024, buff = 12, item = 644 },
 		score = 10
 	},

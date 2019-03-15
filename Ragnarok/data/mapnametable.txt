@@ -1,3 +1,7 @@
+// EDDA Biotechnology Research Institute
+1@gol1.rsw#Biological Experiment Center#
+1@gol2.rsw#Morgue#
+
 // Illusion of Labyrinth
 prt_mz03_i.rsw#Twisted Labyrinth Forest#
 
@@ -173,7 +177,7 @@ verus02.rsw#Research Building-WISH#
 un_bk_q.rsw#Underground Bunker#
 un_bunker.rsw#Underground Bunker#
 un_myst.rsw#Underground Tunnel#
-1@uns.rsw#The last room#
+1@uns.rsw#The Last room#
 1@lab.rsw#Central Laboratory#
 
 // New Biolabs Dungeon
@@ -204,14 +208,14 @@ c_tower3_.rsw#Twisted Clock Tower F3#
 
 silk_lair.rsw#Python's Lair#
 
-moro_vol.rsw#Fire Basin#
-moro_cav.rsw#Fire Cave#
+moro_vol.rsw#Flame Basin#
+moro_cav.rsw#Flame Cave#
 1@dth1.rsw#Bios Island#
 1@dth2.rsw#Bios Island#
 1@dth3.rsw#Bios Island#
 1@rev.rsw#Morse Cave#
 1@xm_d.rsw#Horror Toy Factory#
-1@eom.rsw#Demon's Shrine#
+1@eom.rsw#Shrine of Demon God#
 1@jtb.rsw#Dream and Shadow#
 
 dali02.rsw#Dimensional Rift#
@@ -230,7 +234,7 @@ dali.rsw#Dimensional Rift#
 1@def02.rsw#Wave Dungeon - Sky#
 1@def03.rsw#Wave Dungeon - Lava#
 
-evt_bomb.rsw#Labyrinth Events#
+evt_bomb.rsw#Labyrinth Event#
 
 gl_cas02_.rsw#Corridor F2#
 gl_chyard_.rsw#Monastery Churchyard#
@@ -238,7 +242,7 @@ gl_chyard_.rsw#Monastery Churchyard#
 1@gl_k.rsw#Old Glastheim Chivalry F2#
 
 te_prt_gld.rsw#Gloria#
-te_prtcas01.rsw#Gae Bolg Castle#
+te_prtcas01.rsw#Geoborg Castle#
 te_prtcas02.rsw#Richard Castle#
 te_prtcas03.rsw#Wigner Castle#
 te_prtcas04.rsw#Heine Castle#
@@ -279,8 +283,8 @@ iz_int04.rsw#Intro#
 iz_ac01.rsw#Criatura Academy F1#
 iz_ac02.rsw#Criatura Academy F2#
 iz_ng01.rsw#Ninja tutorial map#
-treasure_n1.rsw#Izlude wreck B1#
-treasure_n2.rsw#Izlude wreck B2#
+treasure_n1.rsw#Izlude Shipwreck B1#
+treasure_n2.rsw#Izlude Shipwreck B2#
 
 moc_prydn1.rsw#Morocc Pyramid B1 - Nightmare#
 moc_prydn2.rsw#Morocc Pyramid B2 - Nightmare#
@@ -346,7 +350,7 @@ dewata.rsw#Dewata#
 dew_in01.rsw#Inside Dewata#
 dew_fild01.rsw#Dewata Field (Tribal Village)#
 dew_dun01.rsw#Volcanic Island of Krakatoa#
-dew_dun02.rsw#Tina Grace Cave#
+dew_dun02.rsw#Istana Cave#
 1@mist.rsw#The Hazy Maze Forest#
 mora.rsw#Mora Village#
 bif_fild01.rsw#Bifrost Bridge#
@@ -597,7 +601,7 @@ airplane_01.rsw#Airship#
 lhz_dun01.rsw#Somatology Laboratory area 1#
 lhz_dun02.rsw#Somatology Laboratory area 2#
 lhz_dun03.rsw#Somatology Laboratory area 3#
-yuno_pre.rsw#Schwarzwald Government Buildings#
+yuno_pre.rsw#Schwartzvald Government Buildings#
 y_airport.rsw#Yuno Airport#
 lhz_fild01.rsw#Lighthalzen Field area 1#
 lhz_fild02.rsw#Lighthalzen Field area 2 (Grim Reaper's Valley)#
@@ -629,7 +633,7 @@ turbo_n_1.rsw#Turbo Track Stadium#
 turbo_room.rsw#Waiting Room#
 yuno_fild12.rsw#Border Checkpoint#
 yuno_fild11.rsw#Yuno Field#
-yuno_fild09.rsw#Schwarzwald Guards Camp#
+yuno_fild09.rsw#Schwartzvald Guards Camp#
 yuno_fild08.rsw#Kiel Hyre's Academy#
 yuno_fild07.rsw#El Mes Gorge (Valley of Abyss)#
 yuno_fild05.rsw#El Mes Plateau#
@@ -707,7 +711,7 @@ yuno_fild01.rsw#Border Posts#
 yuno_in03.rsw#Inside Yuno#
 yuno_in02.rsw#Inside the Sage Castle#
 yuno_in01.rsw#Inside Yuno#
-yuno.rsw#Yuno, Capital of Schwarzwald Republic#
+yuno.rsw#Yuno, Capital of Schwartzvald Republic#
 job_wiz.rsw#Wizard Realm#
 job_prist.rsw#Priest Realm#
 job_knt.rsw#Knight Realm#

@@ -1,5 +1,48 @@
 tblLapineDdukddakBox = {
 	sources = {
+		["PerfectSize_Mix"] = {
+			ItemID = 100010,
+			NeedCount = 3,
+			NeedRefineMin = 7,
+			SourceItems = {
+				{ "빅웨폰S", 1, 24075 },
+				{ "미디움웨폰S", 1, 24076 },
+				{ "스몰웨폰S", 1, 24077 },
+				{ "빅아머S", 1, 24072 },
+				{ "미디움아머S", 1, 24073 },
+				{ "스몰아머S", 1, 24074 }
+			},
+			NeedSource_String = "+7 사이즈 쉐도우"
+		},
+		["MagicPiercing_Mix"] = {
+			ItemID = 100011,
+			NeedCount = 2,
+			NeedRefineMin = 7,
+			SourceItems = {
+				{ "매직액서큐서너웨폰S", 1, 24170 },
+				{ "매직엑소시스트웨폰S", 1, 24171 },
+				{ "매직헌팅웨폰S", 1, 24172 },
+				{ "매직인섹트넷웨폰S", 1, 24173 },
+				{ "매직피싱웨폰S", 1, 24174 },
+				{ "매직드래곤킬러웨폰S", 1, 24175 },
+				{ "매직커럽트웨폰S", 1, 24176 },
+				{ "매직바이브레이션웨폰S", 1, 24177 },
+				{ "매직홀리워터웨폰S", 1, 24178 },
+				{ "매직시저스웨폰S", 1, 24179 }
+			},
+			NeedSource_String = "+7 매직 피어싱 쉐도우"
+		},
+		["IDTest_Special"] = {
+			ItemID = 100000,
+			NeedCount = 3,
+			NeedRefineMin = 0,
+			SourceItems = {
+				{ "젤로피", 1, 909 },
+				{ "솜털", 1, 914 },
+				{ "단단한껍질", 1, 935 }
+			},
+			NeedSource_String = "젤로피,솜털,단단한껍질"
+		},
 		["EnchantStone_Recipe_9m"] = {
 			ItemID = 23967,
 			NeedCount = 1,
@@ -1569,7 +1612,16 @@ tblLapineDdukddakBox = {
 				{ "S_Star_Emperor_Armor", 1, 24412 },
 				{ "S_Star_Emperor_Shoes", 1, 24413 },
 				{ "S_Soul_Reaper_Armor", 1, 24414 },
-				{ "S_Soul_Reaper_Shoes", 1, 24415 }
+				{ "S_Soul_Reaper_Shoes", 1, 24415 },
+				{ "S_Tempest_Weapon", 1, 24423 },
+				{ "S_Tempest_Armor", 1, 24424 },
+				{ "S_PerfectSize_Weapon", 1, 24425 },
+				{ "S_PerfectSize_Armor", 1, 24426 },
+				{ "S_M_Exo_Co_Weapon", 1, 24427 },
+				{ "S_M_Viv_Dr_Weapon", 1, 24428 },
+				{ "S_M_Sci_Hu_Weapon", 1, 24429 },
+				{ "S_M_Fis_In_Weapon", 1, 24430 },
+				{ "S_M_Exe_Ho_Weapon", 1, 24431 }
 			},
 			NeedSource_String = "쉐도우 아이템"
 		},
@@ -1719,8 +1771,8 @@ tblLapineDdukddakBox = {
 				{ "GeneticStone_Middle", 1, 25451 },
 				{ "GeneticStone_Bottom", 1, 25452 },
 				{ "WarlockStone_Top", 1, 25453 },
-				{ "WarlockStone_Middle ", 1, 25454 },
-				{ "WarlockStone_Bottom ", 1, 25455 },
+				{ "WarlockStone_Middle", 1, 25454 },
+				{ "WarlockStone_Bottom", 1, 25455 },
 				{ "WarlockStone_Robe", 1, 25456 },
 				{ "ShadowchaserStone_Top", 1, 25490 },
 				{ "ShadowchaseStone_Middle", 1, 25491 },
@@ -1751,7 +1803,40 @@ tblLapineDdukddakBox = {
 				{ "AssacrossStone_Top", 1, 25714 },
 				{ "AssacrossStone_Middle", 1, 25715 },
 				{ "AssacrossStone_Bottom", 1, 25716 },
-				{ "GuillcrossStone_Robe", 1, 25717 }
+				{ "GuillcrossStone_Robe", 1, 25717 },
+				{ "SuraStone_Robe2", 1, 25797 },
+				{ "SuraStone_Bottom2", 1, 25798 },
+				{ "SuraStone_Middle2", 1, 25799 },
+				{ "SuraStone_Top2", 1, 25800 },
+				{ "SorcererStone_Robe2", 1, 25801 },
+				{ "SorcererStone_Bottom2", 1, 25802 },
+				{ "SorcererStone_Middle2", 1, 25803 },
+				{ "SorcererStone_Top2", 1, 25804 },
+				{ "ShadowchaserStone_Robe2", 1, 25805 },
+				{ "ShadowchasStone_Bottom2", 1, 25806 },
+				{ "ShadowchasStone_Middle2", 1, 25807 },
+				{ "ShadowchaserStone_Top2", 1, 25808 },
+				{ "SoulreaperStone_Robe", 1, 25842 },
+				{ "SoullinkerStone_Top", 1, 25843 },
+				{ "SoullinkerStone_Middle", 1, 25844 },
+				{ "SoullinkerStone_Bottom", 1, 25845 },
+				{ "GladiatorStone_Top", 1, 25846 },
+				{ "GladiatorStone_Middle", 1, 25847 },
+				{ "GladiatorStone_Bottom", 1, 25848 },
+				{ "StaremperorStone_Robe", 1, 25849 },
+				{ "NinjaStone_Top", 1, 25850 },
+				{ "NinjaStone_Middle", 1, 25851 },
+				{ "NinjaStone_Bottom", 1, 25852 },
+				{ "KagerouStone_Robe", 1, 25853 },
+				{ "OboroStone_Robe", 1, 25854 },
+				{ "GunslingerStone_Top", 1, 25855 },
+				{ "GunslingerStone_Middle", 1, 25856 },
+				{ "GunslingerStone_Bottom", 1, 25857 },
+				{ "RebellionStone_Robe", 1, 25858 },
+				{ "DoramStone_Top", 1, 25859 },
+				{ "DoramStone_Middle", 1, 25860 },
+				{ "DoramStone_Bottom", 1, 25861 },
+				{ "DoramStone_Robe", 1, 25862 }
 			},
 			NeedSource_String = "의상인챈트스톤"
 		},
@@ -2250,7 +2335,21 @@ tblLapineDdukddakBox = {
 				{ "C_Halloween_Poring_Bag", 1, 20543 },
 				{ "C주황색할로윈모자", 1, 20174 },
 				{ "C뱀파이어헤어밴드", 1, 20098 },
-				{ "C검은마녀의모자", 1, 20395 }
+				{ "C검은마녀의모자", 1, 20395 },
+				{ "C디아볼릭헤드폰", 1, 20175 },
+				{ "C_Princess_Ribbon_Crown", 1, 31565 },
+				{ "C_Poporing_Muffler", 1, 31586 },
+				{ "C_Protect_Cloth", 1, 31625 },
+				{ "C_Backside_Ribbon_Bell", 1, 20546 },
+				{ "C타락천사의날개", 1, 20764 },
+				{ "C눈토끼니트모자", 1, 19990 },
+				{ "C_Snow_Bear_Food", 1, 31440 },
+				{ "C_LunaticMuffler_TW", 1, 31482 },
+				{ "C_Sleep_Sheep", 1, 31693 },
+				{ "C_HeartChocoBag", 1, 20570 },
+				{ "C_Cat_Ears_Punkish", 1, 31382 },
+				{ "C_CatCoffeeCup_TW", 1, 31481 },
+				{ "C_HeartOfCat_TW", 1, 31624 }
 			},
 			NeedSource_String = "냥다래 의상"
 		}

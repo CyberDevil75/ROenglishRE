@@ -794,6 +794,10 @@
 27201#Agnes#
 27202#Jurgen#
 27203#Spica#
+27330#Kronecker's#
+27331#of Granz Heine#
+27332#Skia's#
+27333#of Shiny Nerius#
 
 // 2018 January Hero's Trail part 2 Cards
 27181#Bane Band#
@@ -892,6 +896,26 @@
 27342#Metal Ground#
 27343#Holy Spell#
 
+// Abyss and Nogg F3
+27346#of Howling#
+27347#Crack#
+27348#No wear#
+27349#of Flame Barrier#
+27350#of Dragon Spirit#
+27351#of Dragon Heart#
+27352#Slumber#
+27353#of Demonic Barrier#
+27354#of Deprave#
+27355#Depraved#
+27356#of Frozen Guard#
+27357#of Dirty Glove#
+27358#Breaking#
+27359#Cold Magic#
+27360#Fire Magic#
+27361#Heavy Blade#
+27362#of Queen Spider#
+27363#Doom#
+
 // Sealed Boss Cards
 4480#of Half Reload#
 4481#Half Jack Frost#
@@ -987,44 +1011,44 @@
 27052#Dual Whale#
 27053#Dual Jungle#
 27054#Dual Genie#
-//27055#ƒIƒuƒ\[ƒTƒ‰[#
-//27056#ƒIƒuC—…#
-//27057#ƒIƒuƒ~ƒ“ƒXƒgƒŒƒ‹#
-//27058#ƒIƒuƒMƒƒ`ƒ“ƒNƒƒX#
-//27059#ƒIƒuƒA[ƒNƒrƒVƒ‡ƒbƒv#
-//27060#ƒIƒuƒŒƒ“ƒWƒƒ[#
-//27061#ƒIƒuƒƒJƒjƒbƒN#
-//27062#ƒIƒuƒEƒH[ƒƒbƒN#
-//27063#ƒIƒuƒ‹[ƒ“ƒiƒCƒg#
-//27064#ƒIƒuƒƒCƒ„ƒ‹ƒK[ƒh#
-//27065#ƒIƒuƒWƒFƒlƒeƒBƒbƒN#
-//27066#ƒIƒuƒVƒƒƒhƒEƒ`ƒFƒCƒT[#
-//27067#ƒIƒuƒƒ“ƒ ƒ‰[#
-//27068#ƒxƒiƒ€ƒvƒŒƒX#
-//27069#ƒWƒ…ƒfƒbƒNƒX#
-//27070#ƒRƒƒbƒg#
-//27071#ƒNƒ‰ƒXƒ^[#
-//27072#ƒ}ƒOƒ}#
-//27073#ƒCƒOƒjƒbƒVƒ‡ƒ“#
-//27074#ƒhƒ‰ƒCƒu#
-//27075#ƒNƒŒƒCƒW[#
-//27076#ƒNƒ‰ƒEƒhƒLƒ‹#
-//27077#‚q‚Ì#
-//27078#ƒgƒ‰ƒCƒAƒ“ƒOƒ‹#
-//27079#c‹¿‚Ì#
-//27080#U“®‚Ì#
-//27089#ƒVƒXƒeƒ€ƒu[ƒXƒg#
-//27090#ƒIƒuƒ}ƒbƒhƒEƒBƒU[ƒh#
-//27091#ƒIƒuƒ}ƒbƒhƒEƒH[ƒŠƒA#
-//27092#ƒI[ƒo[ƒNƒƒbƒN#
-//27093#ƒIƒuƒXƒiƒCƒv#
-//27094#ƒIƒuƒtƒBƒWƒJƒ‹#
-//27095#ƒIƒuƒ}ƒbƒhƒrƒXƒPƒbƒg#
-//27096#ƒIƒuƒGƒLƒXƒp[ƒg#
-//27097#ƒIƒuƒGƒ“ƒWƒFƒ}ƒ“#
-//27098# ”±‚Ì#
-//27099#R”»‚Ì#
-//27100#ƒIƒuƒNƒ‰ƒbƒv#
+27055#of Sorcerer#
+27056#of Sura#
+27057#of Minstrel#
+27058#of Guillotine Cross#
+27059#of Arc Bishop#
+27060#of Ranger#
+27061#of Mechanic#
+27062#of Warlock#
+27063#of Rune Knight#
+27064#of Royal guard#
+27065#of Geneticist#
+27066#of Shadow Chaser#
+27067#of Wanderer#
+27068#Venom Pressure#
+27069#Judex#
+27070#Comet#
+27071#Cluster#
+27072#Magma#
+27073#Ignition#
+27074#Drive#
+27075#Crazy#
+27076#Cloud Kill#
+27077#Lion's#
+27078#Triangle#
+27079#Reverberation#
+27080#Vibration#
+27089#System Boost#
+27090#of Mad Wizard#
+27091#of Mad Warrior#
+27092#Overclocking#
+27093#of Sniper#
+27094#of physical#
+27095#of Mad Biscuit#
+27096#of Expert#
+27097#of Angelman#
+27098#Punisher's#
+27099#Judge's#
+27100#of Clap#
 27127#of Abyss#
 27128#Ancient Blood#
 27129#Hundred#
@@ -1449,42 +1473,42 @@
 //25499#<Clown Gypsy Stone Mid>#
 //25500#<Clown Gypsy Stone Lower>#
 //25501#<Wandermins Stone Garment>#
-//25670#<Modification Module ¹æ¾î>#
-//25671#<Modification Module ¸¶¹ı¹æ¾î>#
-//25672#<Modification Module VIT>#
-//25673#<Modification Module LUK>#
-//25674#<Modification Module STR>#
-//25675#<Modification Module AGI>#
-//25676#<Modification Module INT>#
-//25677#<Modification Module DEX>#
-//25678#<Modification Module HPÈ¸º¹·®>#
-//25679#<Modification Module SPÈ¸º¹·®>#
-//25680#<Modification Module ¸¶·Â>#
-//25681#<Modification Module °ø°İ¼Óµµ>#
-//25682#<Modification Module Ä¡¸í>#
-//25683#<Modification Module ¸í±Ã>#
-//25684#<Modification Module Ã¼·Â>#
-//25685#<Modification Module Á¤½Å·Â>#
-//25686#<Modification Module Èú>#
-//25687#<Modification Module °ø°İ·Â>#
-//25688#<Modification Module ¸¶¹ı·Â>#
-//25689#<Modification Module ¸í»ç¼ö>#
-//25690#<Modification Module ½Å¼Ó>#
-//25691#<Modification Module Ä³½ºÅÍ>#
-//25692#<Modification Module Å©¸®Æ¼ÄÃ>#
-//25693#<Modification Module skill after delay>#
-//25694#<Modification Module Fixed cast time>#
-//25695#<Modification Module ¾îº¸ºê ¿Ã>#
-//25696#<Modification Module µå·¹ÀÎ ¶óÀÌÇÁ>#
-//25697#<Modification Module µå·¹ÀÎ ¼Ò¿ï>#
-//25698#<Modification Module ¸ÅÁ÷ Èú¸µ>#
-//25699#<Modification Module ¸ÅÁ÷ ¼Ò¿ï>#
-//25700#<Modification Module ¾ğ¸®¹Ô ¹ÙÀÌÅ»>#
-//25701#<Modification Module ½ºÆç ¹ö½ºÅÍ>#
-//25702#<Modification Module Firing Shot>#
-//25703#<Modification Module Over Power>#
-//25704#<Modification Module Fatal Flash>#
-//25705#<Modification Module Lucky Strike>#
+//25670#<Mod Module ¹æ¾î>#
+//25671#<Mod Module ¸¶¹ı¹æ¾î>#
+//25672#<Mod Module VIT>#
+//25673#<Mod Module LUK>#
+//25674#<Mod Module STR>#
+//25675#<Mod Module AGI>#
+//25676#<Mod Module INT>#
+//25677#<Mod Module DEX>#
+//25678#<Mod Module HPÈ¸º¹·®>#
+//25679#<Mod Module SPÈ¸º¹·®>#
+//25680#<Mod Module ¸¶·Â>#
+//25681#<Mod Module °ø°İ¼Óµµ>#
+//25682#<Mod Module Ä¡¸í>#
+//25683#<Mod Module ¸í±Ã>#
+//25684#<Mod Module Ã¼·Â>#
+//25685#<Mod Module Á¤½Å·Â>#
+//25686#<Mod Module Èú>#
+//25687#<Mod Module °ø°İ·Â>#
+//25688#<Mod Module ¸¶¹ı·Â>#
+//25689#<Mod Module ¸í»ç¼ö>#
+//25690#<Mod Module ½Å¼Ó>#
+//25691#<Mod Module Ä³½ºÅÍ>#
+//25692#<Mod Module Å©¸®Æ¼ÄÃ>#
+//25693#<Mod Module skill after delay>#
+//25694#<Mod Module Fixed cast time>#
+//25695#<Mod Module ¾îº¸ºê ¿Ã>#
+//25696#<Mod Module µå·¹ÀÎ ¶óÀÌÇÁ>#
+//25697#<Mod Module µå·¹ÀÎ ¼Ò¿ï>#
+//25698#<Mod Module ¸ÅÁ÷ Èú¸µ>#
+//25699#<Mod Module ¸ÅÁ÷ ¼Ò¿ï>#
+//25700#<Mod Module ¾ğ¸®¹Ô ¹ÙÀÌÅ»>#
+//25701#<Mod Module ½ºÆç ¹ö½ºÅÍ>#
+//25702#<Mod Module Firing Shot>#
+//25703#<Mod Module Over Power>#
+//25704#<Mod Module Fatal Flash>#
+//25705#<Mod Module Lucky Strike>#
 //25706#<High Priest Stone>#
 //25707#<High Priest Stone>#
 //25708#<High Priest Stone>#
@@ -1942,32 +1966,32 @@
 //29522#<Assassin Cross Stone Mid>#
 //29523#<Assassin Cross Stone Lower>#
 //29524#<Guillotine Cross Stone Garment>#
-//29527#<Modification Orb ¹æ¾î>#
-//29528#<Modification Orb ¸¶¹ı¹æ¾î>#
-//29529#<Modification Orb HPÈ¸º¹·®>#
-//29530#<Modification Orb Á¤½Å·Â>#
-//29531#<Modification Orb Ã¼·Â>#
-//29532#<Modification Orb SPÈ¸º¹·®>#
-//29533#<Modification Orb Èú>#
-//29534#<Modification Orb °ø°İ·Â>#
-//29535#<Modification Orb ¸¶¹ı·Â>#
-//29536#<Modification Orb ¸í»ç¼ö>#
-//29537#<Modification Orb ½Å¼Ó>#
-//29538#<Modification Orb Ä³½ºÅÍ>#
-//29539#<Modification Orb Å©¸®Æ¼ÄÃ>#
-//29540#<Modification Orb skill ÈÄ  µô·¹ÀÌ>#
-//29541#<Modification Orb Fixed cast time>#
-//29542#<Modification Orb ¾îº¸ºê ¿Ã>#
-//29543#<Modification Orb µå·¹ÀÎ ¶óÀÌÇÁ>#
-//29544#<Modification Orb µå·¹ÀÎ ¼Ò¿ï>#
-//29545#<Modification Orb ¸ÅÁ÷ Èú¸µ>#
-//29546#<Modification Orb ¸ÅÁ÷ ¼Ò¿ï>#
-//29547#<Modification Orb ¾ğ¸®¹Ô ¹ÙÀÌÅ»>#
-//29548#<Modification Orb ½ºÆç ¹ö½ºÅÍ>#
-//29549#<Modification Orb Firing Shot>#
-//29550#<Modification Orb Over Power>#
-//29551#<Modification Orb Fatal Flash>#
-//29552#<Modification Orb Lucky Strike>#
+//29527#<Mod Orb Defense>#
+//29528#<Mod Orb MagicDefense>#
+//29529#<Mod Orb HPRecovery>#
+//29530#<Mod Orb Spirit>#
+//29531#<Mod Orb Stamina>#
+//29532#<Mod Orb SPRecovery>#
+//29533#<Mod Orb Heal>#
+//29534#<Mod Orb AttackPower>#
+//29535#<Mod Orb MagicPower>#
+//29536#<Mod Orb Sharpshooter>#
+//29537#<Mod Orb Swift>#
+//29538#<Mod Orb Caster>#
+//29539#<Mod Orb Critical>#
+//29540#<Mod Orb AfterSkillDelay>#
+//29541#<Mod Orb FixedCastTime>#
+//29542#<Mod Orb AboveAll>#
+//29543#<Mod Orb LifeDrain>#
+//29544#<Mod Orb SoulDrain>#
+//29545#<Mod Orb MagicHealing>#
+//29546#<Mod Orb MagicSoul>#
+//29547#<Mod Orb UnlimitedVital>#
+//29548#<Mod Orb SpellBuster>#
+//29549#<Mod Orb Firing Shot>#
+//29550#<Mod Orb Over Power>#
+//29551#<Mod Orb Fatal Flash>#
+//29552#<Mod Orb Lucky Strike>#
 //29579#<Racing Star Gladiator Lv1>#
 //29580#<Racing Star Gladiator Lv2>#
 //29581#<Racing Star Gladiator Lv3>#
@@ -1980,3 +2004,7 @@
 //29590#<Divine Power>#
 //29591#<Rigid Body>#
 //29592#<Hundred Lucks>#
+//29593#<Freezing Tolerance>#
+//29608#<Aries>#
+//29609#<Capricorn>#
+//29610#<Pieces>#

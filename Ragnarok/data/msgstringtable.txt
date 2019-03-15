@@ -429,7 +429,7 @@ Item List you can craft#
  item creation failed.#
  item created successfully.#
 Failed to create %s.#
-Succeed to create %s.#
+Successfully created %s.#
 You are not the required lvl.#
 Too high lvl for this job.#
 Not the suitable job for this type of work.#
@@ -489,7 +489,7 @@ You got %d Base exp.#
 You got %d Job exp.#
 You left the guild.#
 You have been expelled from the Guild.#
-Item Appraisal has completed successfully.#
+Item appraisal has completed successfully.#
 Item appraisal has failed.#
 Compounding has completed successfully.#
 Compounding has failed.#
@@ -1758,7 +1758,7 @@ Roles#
 2nd Jobs#
 3-1 Classes#
 3-2 Classes#
-1st Job High#
+1st Jobs High#
 2nd Jobs High#
 Other Jobs#
 Recruit#
@@ -1766,14 +1766,14 @@ Open party recruitment window.#
 Searching - #
 Select All#
 Recruitment of at least one job must be running.#
-You have to select atleast 1 or more jobs.#
+You have to select at least 1 or more jobs.#
 You have selected %d Jobs. You can only select up to 6 different jobs.#
 Only numeric characters are allowed.#
 Please enter levels between 1~150.#
 Nothing found in the selected map.#
 You cannot equip this item with your current level.#
 You cannot use this item with your current level.#
-Enable Battlemode#
+Enable Battle mode#
 Failed to add because you have reached the limit.#
  message log settings#
 Sell#
@@ -2560,7 +2560,7 @@ Requires a Coin.#
 Item Sell History#
 Item Purchase History#
 [Grenade Launcher] weapon class must be equipped.#
-[Heat barrel], [Last Stand] and [Platinum Alter] cannot be used while sitting.#
+[Heat Barrel], [Madness Canceller] and [Platinum Alter] cannot be used while sitting.#
 Cannot use skill in this map.#
 If you are using a guild storage, all items inside it will disappear.#
 http://ragnarok.gamesamba.com/paytest.html#
@@ -2863,7 +2863,7 @@ Total possession item type#
 Show minimap buttons#
 Hide minimap buttons#
 Show guild member login status#
-Intimacy: %s#
+^0000CCIntimacy:^000000 %s#
 Unrecognized#
 Team name#
 Leader#
@@ -3045,7 +3045,7 @@ Purchase failed#
 ID card is incorrect#
 Close#
 Rules#
-But 1 ea.#
+Buy 1 ea.#
 Buy 10 ea.#
 Buy 100 ea.#
 1st prize#
@@ -3158,7 +3158,7 @@ Costume#
 Sort order#
 General equipment#
 Special equipment#
-Tittle#
+Title#
 /quake : Screen shake effect ON/OFF#
 /aura2 : Completly turn aura effect ON/OFF#
 Basic settings#
@@ -3211,7 +3211,7 @@ Location error#
 Search result[%d]#
 Show navigation icon setting#
 Path that uses zeny#
-navigation dock#
+Open navigation window#
 Account is not active#
 Click on the location to share it in a chat room#
 4. Select Service project, Contains use of zeny and airship#
@@ -3228,7 +3228,7 @@ Character with this level cannot join the party#
 '%lld' Job Experience#
 %lld Job Experience obtained#
 Unable to open a shop at the current location#
- seconds left before it's become usable#
+ seconds left before it become usable#
 Cap#
 SNS Failed to send(%d)#
 SNS Failed to connect to server#
@@ -3255,7 +3255,7 @@ Please enter a search term#
 MOTP#
 Certification Number#
 GNJOY MOTP downloaded to your phone, Please enter your verification number.#
-There is no party member that can be delegated. Do you want to disband the party?#
+There is no party member that can be delegated. Do you want to disband the party instead?#
  - Age 18+#
  - Paid server#
  - Free server#
@@ -3366,9 +3366,9 @@ Acolyte classes#
 Merchant classes#
 Thief classes#
 Taekwon classes#
-Ninja class#
-Gunslinger class#
-Doram class#
+Ninja classes#
+Gunslinger classes#
+Doram race#
 Location#
 Location name search#
 Request to join#
@@ -3413,8 +3413,8 @@ Save ID#
 Password#
 ID#
 Sign Up#
-Novice class#
-Super Novice class#
+Novice classes#
+Super Novice classes#
 Failed to register adventurer's agent.#
 Registered to adventurer's agent.#
 Please select at least one job.#
@@ -3558,10 +3558,20 @@ Not enough items to exchange.#
 The item has been sold and out of stock.#
 KO'ed#
 PvP#
-Expand item possession#
-Do you want to expand the maximum number of item by using ^0000ff%s^000000? \nIt will expand from (^0000ff%d^000000) to (^0000ff%d^000000).\n^ff0000 Expanded item possession limit can't be reversed.^000000#
-Failed to expand the maximum number of item.#
-To expand the number of items, please close other windows.#
-Failed to expand the maximum number of items, insufficient required item.#
-You can no longer expand the maximum number of item.#
-You have successfully expanded the number of item.#
+Expand possession limit#
+Do you want to expand the maximum possession limit by using ^0000ff%s^000000? \nIt will expand from (^0000ff%d^000000) to (^0000ff%d^000000).\n^ff0000 Expanded item possession limit can't be reversed.^000000#
+Failed to expand the maximum possession limit.#
+To expand the possession limit, please close other windows.#
+Failed to expand the maximum possession limit, insufficient required item.#
+You can no longer expand the maximum possession limit.#
+You have successfully expanded the possession limit.#
+You can't have more the same %d item at a time.#
+It is not possible to purchase as it will exceeds the possession limit.#
+You can only buy one item at a time.#
+Star Emperor#
+Soul Reaper#
+The settings are stored on the server on normal exit.#
+Capture Monster#
+message#
+TITLE#
+Expand damage mark#
