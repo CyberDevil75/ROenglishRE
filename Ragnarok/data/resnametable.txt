@@ -2318,3 +2318,23 @@ eyno_fld07h.rsw#yuno_fild07.rsw#
 1@vp.rsw#que_god01.rsw#
 유저인터페이스\map\1@vp.bmp#유저인터페이스\map\que_god01.bmp#
 // Fine Instance custom by Alayne
+
+que_house_s.gnd#que_house_s.gnd#
+que_house_s.gat#que_house_s.gat#
+que_house_s.rsw#que_house_s.rsw#
+유저인터페이스\map\que_house_s.bmp#유저인터페이스\map\1@zombie.bmp#
+
+mal_in02.gnd#mal_in02.gnd#
+mal_in02.gat#mal_in02.gat#
+mal_in02.rsw#mal_in02.rsw#
+유저인터페이스\map\mal_in02.bmp#유저인터페이스\map\1@zombie.bmp#
+
+spl_in01.gnd#spl_in01.gnd#
+spl_in01.gat#spl_in01.gat#
+spl_in01.rsw#spl_in01.rsw#
+유저인터페이스\map\spl_in01.bmp#유저인터페이스\map\1@zombie.bmp#
+
+spl_in02.gnd#spl_in02.gnd#
+spl_in02.gat#spl_in02.gat#
+spl_in02.rsw#spl_in02.rsw#
+유저인터페이스\map\spl_in02.bmp#유저인터페이스\map\1@zombie.bmp#
