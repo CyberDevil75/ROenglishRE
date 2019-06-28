@@ -1,34 +1,35 @@
 //--- INFINITY ---//
 //ID  dro tra sto car sel mai auc gui
-9999	1	1	0	1	1	1	1	1	// INFINITY Coin
-9998	1	1	0	1	1	1	1	1	// INFINITY Coin Pouch
-9997	1	1	0	1	1	1	1	1	// INFINITY Coin Chest
-22876	1	1	0	1	1	1	1	1	// Old Money Pocket
+9999	1	1	0	1	0	1	1	1	// INFINITY Coin
+9998	1	1	0	1	0	1	1	1	// INFINITY Coin Pouch
+9997	1	1	0	1	0	1	1	1	// INFINITY Coin Chest
+22876	1	1	0	1	0	1	1	1	// Old Money Pocket
 6040	1	0	0	1	0	1	1	1	// Part of a Report
-6380	0	0	0	0	1	0	0	0	// Mora Coin
-7642	0	0	0	0	1	0	0	0	// Bloody Coin
+6380	0	0	0	0	0	0	0	0	// Mora Coin
+7642	0	0	0	0	0	0	0	0	// Bloody Coin
+6767	0	0	0	0	0	0	0	0	// Summer Festival Coins
 7711	1	1	0	1	0	1	1	1	// Event Ticket
-6814	0	0	0	1	1	0	1	0	// Swordman Soul
-6815	0	0	0	1	1	0	1	0	// Merchant Soul
-6816	0	0	0	1	1	0	1	0	// Thief Soul
-6817	0	0	0	1	1	0	1	0	// Mage Soul
-6818	0	0	0	1	1	0	1	0	// Archer Soul
-6819	0	0	0	1	1	0	1	0	// Acolyte Soul
-5269	0	0	0	0	1	0	0	0	// Flapping Angel Wing - 8
-5450	0	0	0	0	1	0	0	0	// Solar Hat - 8
-5451	0	0	0	0	1	0	0	0	// RWC 2008 Dragon Helm Gold - 8
-5462	0	0	0	0	1	0	0	0	// Spiked Scarf - 8
-5463	0	0	0	0	1	0	0	0	// Rainbow Scarf - 8
-5592	0	0	0	0	1	0	0	0	// Sigrun's Wings - 8
-5900	0	0	0	0	1	0	0	0	// Divine Guard Hat - 8
-5901	0	0	0	0	1	0	0	0	// Focus Beret - 8
-5902	0	0	0	0	1	0	0	0	// Harvester Hat - 8
-5903	0	0	0	0	1	0	0	0	// Deadman Bandana - 8
-5904	0	0	0	0	1	0	0	0	// Inconspicuous Hat - 8
-5905	0	0	0	0	1	0	0	0	// Lyrica Hat - 8
-5907	0	0	0	0	1	0	0	0	// Sea Captain Hat - 8
-31260	0	0	0	0	1	0	0	0	// C Observer - 8
-12622	0	0	0	0	1	0	0	0	// Reins Of Mount - 8
+6814	0	0	0	1	0	0	1	0	// Swordman Soul
+6815	0	0	0	1	0	0	1	0	// Merchant Soul
+6816	0	0	0	1	0	0	1	0	// Thief Soul
+6817	0	0	0	1	0	0	1	0	// Mage Soul
+6818	0	0	0	1	0	0	1	0	// Archer Soul
+6819	0	0	0	1	0	0	1	0	// Acolyte Soul
+5269	0	0	0	0	0	0	0	0	// Flapping Angel Wing
+5450	0	0	0	0	0	0	0	0	// Solar Hat
+5451	0	0	0	0	0	0	0	0	// RWC 2008 Dragon Helm Gold
+5462	0	0	0	0	0	0	0	0	// Spiked Scarf
+5463	0	0	0	0	0	0	0	0	// Rainbow Scarf
+5592	0	0	0	0	0	0	0	0	// Sigrun's Wings
+5900	0	0	0	0	0	0	0	0	// Divine Guard Hat
+5901	0	0	0	0	0	0	0	0	// Focus Beret
+5902	0	0	0	0	0	0	0	0	// Harvester Hat
+5903	0	0	0	0	0	0	0	0	// Deadman Bandana
+5904	0	0	0	0	0	0	0	0	// Inconspicuous Hat
+5905	0	0	0	0	0	0	0	0	// Lyrica Hat
+5907	0	0	0	0	0	0	0	0	// Sea Captain Hat
+31260	0	0	0	0	0	0	0	0	// C Observer
+12622	0	0	0	0	0	0	0	0	// Reins Of Mount
 // ItemID | Drop | Trade | Storage | Cart | SelltoNPC | Mail | Auction | Guild Storage
 547	0	0	0	0	1	0	0	0	// 화이트슬림포션
 598	1	1	0	1	1	1	1	1	// 캐쉬아이템가벼운알약
@@ -954,7 +955,6 @@
 6753	1	1	0	1	0	1	1	1	// 멸망의증표
 6754	1	1	1	1	1	1	1	1	// 채집한약초
 6766	1	1	1	1	0	1	1	1	// 얼음나라티켓
-6767	1	1	1	1	0	1	1	1	// 여름축제코인
 6768	1	1	1	1	0	1	1	1	// 빙수용팥
 6769	1	1	1	1	0	1	1	1	// 달콤한떡
 6784	1	1	1	1	1	1	1	1	// 오징어용꼬치

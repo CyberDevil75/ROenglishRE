@@ -2338,3 +2338,8 @@ spl_in02.gnd#spl_in02.gnd#
 spl_in02.gat#spl_in02.gat#
 spl_in02.rsw#spl_in02.rsw#
 유저인터페이스\map\spl_in02.bmp#유저인터페이스\map\1@zombie.bmp#
+
+ra_temin.gnd#ra_temin.gnd#
+ra_temin.gat#ra_temin.gat#
+ra_temin.rsw#ra_temin.rsw#
+유저인터페이스\map\ra_temin.bmp#유저인터페이스\map\1@zombie.bmp#
