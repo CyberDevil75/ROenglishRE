@@ -1,32 +1,32 @@
 tbl = {
 	[1] = {
-		Title = "Tip box",
+		Title = "Bacheca dei Suggerimenti",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00001",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"/tip alternatively, you can open the tip box by clicking the tip box icon..\\nThe tip box provides useful information for playing games.\\nIf you want to get more information, please enter a search term in ^3b488cSearch window^000000.\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Digitando /tip in chat, Ë possibile aprire la bacheca dei suggerimenti oppure facendo clic sull'icona della bacheca dei suggerimenti.\\nIl suggerimento fornisce informazioni utili per giocare.\\nSe si desidera ottenere maggiori informazioni, inserire un termine di ricerca nella ^3b488cFinestra di Ricerca^000000.\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		},
 		PageEX = {
 			{ EffectNum = 0, Twinkle = 1, StartX = 160, StartY = 105, DistX = 0, DistY = 0, MoveTime = 0 }
 		}
 	},
 	[2] = {
-		Title = "Help: Command list",
+		Title = "Aiuto: Lista dei Comandi",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00002",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"/h to see useful commands used in Ragnarok.\\n/You can use commands by typing it in ^3b488chat window^000000.\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Digita /h in chat per vedere i comandi utili usati in Ragnarok.\\nPuoi usare i comandi scrivendoli nella ^3b488finestra della chat^000000.\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[3] = {
-		Title = "Character: HP",
+		Title = "Personaggio: HP",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00003",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"Indicates the character's health.\\n^ff0000When HP reaches 0, your character won't be able to participate in battle. ^000000Please be careful because ^ff0000experience penalty^000000 may accure on certain locations.\\n\tPress Alt + END to toggle HP/SP meter ON/OFF.\n<TIPBOX>- Character: SP<INFO>4</INFO></TIPBOX>\n<TIPBOX>- Auto regen<INFO>12</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Indica la vita del Personaggio.\\n^ff0000Quando gli HP scendono a ZERO, il tuo personaggio morir‡ e non sar‡ abilitato a partecipare alla battaglia. ^000000Per favore sii prudente perchÈ vige la ^ff0000Penalit‡ sull'Esperienza^000000 in determinati luoghi.\\n\tPremi Alt+Fine per attivare o disattivare la barra degli HP/SP.\n<TIPBOX>- Personaggio: SP<INFO>4</INFO></TIPBOX>\n<TIPBOX>- Auto rigenerazione<INFO>12</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		},
 		PageEX = {
 			{ EffectNum = 3, Twinkle = 1, StartX = 100, StartY = 60, DistX = 0, DistY = 0, MoveTime = 0 },
@@ -34,12 +34,12 @@ tbl = {
 		}
 	},
 	[4] = {
-		Title = "Character: SP",
+		Title = "Personaggio: SP",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00003",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"Indicates the character's spirit.\\nCertain skills will ^3b488cconsume SP^000000. ^000000Please be careful because^ff0000 when SP reaches 0, your character won't be able to cast a skill^000000.\\nPress Alt + END to toggle HP/SP meter ON/OFF.\n<TIPBOX>- Character: HP<INFO>3</INFO></TIPBOX>\n<TIPBOX>- Auto regen<INFO>12</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Indica lo spirito (mana) del personaggio.\\nCerte abilit‡ possono ^3b488cconsumare SP^000000. ^000000Per favore sii prudente perchÈ ^ff0000 quando gli SP scendono a ZERO, il tuo personaggio non potr‡ pi˘ lanciare nessuna abilit‡^000000.\\nPremi Alt+Fine per attivare o disattivare la barra degli HP/SP.\n<TIPBOX>- Personaggio: HP<INFO>3</INFO></TIPBOX>\n<TIPBOX>- Auto rigenerazione<INFO>12</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		},
 		PageEX = {
 			{ EffectNum = 0, Twinkle = 1, StartX = 100, StartY = 105, DistX = 0, DistY = 0, MoveTime = 0 },
@@ -47,379 +47,379 @@ tbl = {
 		}
 	},
 	[5] = {
-		Title = "Character: Level Up",
+		Title = "Personaggio: Salire di Livello",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00005",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"You can level up by hunting monsters or completing quests to gain experience.\\nBy gaining EXP and base level you will obtain ^3b488cstatus points^000000 that can be used to raise character's stats.\\nBy gaining JOBEXP and job level you will obtain ^3b488cskill points^000000 that can be used to learn skill.\n<TIPBOX>- Battle: Experience<INFO>16</INFO></TIPBOX>\n<TIPBOX>- Character: Stats<INFO>6</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Puoi salire di livello cercando mostri o completando missioni (quests) per guadagnare esperienza.\\nGuadagnando EXP e livelli base, otterrai dei ^3b488cPunti Status^000000 che potranno essere usati per incrementare le statistiche del tuo personaggio.\\nGuadagnando JOB EXP e livelli JOB otterrai ^3b488cPunti Abilit‡^000000 che potranno essere usati per apprendere nuove abilit‡ (skills) o potenziare quelle esistenti.\n<TIPBOX>- Combattimento: Esperienza<INFO>16</INFO></TIPBOX>\n<TIPBOX>- Personaggio: Statistiche<INFO>6</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		},
 		PageEX = {
 			{ EffectNum = 3, Twinkle = 1, StartX = 10, StartY = 265, DistX = 0, DistY = 0, MoveTime = 0 }
 		}
 	},
 	[6] = {
-		Title = "Stats: STR(Strength)#Stats",
+		Title = "Statistiche: STR(Forza)#Stats",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00006",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"STR ^3b488cMeele Physical Damage^000000Base attack damage will increase.\\nAdditionally, ^3b488cPossession threshold(Weight)^000000Enables you to carry more items.\n<TIPBOX>- Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\n<TIPBOX>- Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\n<TIPBOX>- Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\n<TIPBOX>- Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\n<TIPBOX>- Stats: LUK(Luck)<INFO>11</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"STR (^3b488cDanno Fisico Corpo a Corpo^000000) aumenta l'attacco base.\\nInoltre, aumenta la ^3b488csoglia del peso limite(Weight)^000000e ti permetter‡ di portare piu oggetti.\n<TIPBOX>- Statistiche: AGI(Agilit‡)<INFO>7</INFO></TIPBOX>\n<TIPBOX>- Statistiche: VIT(Vitalit‡)<INFO>8</INFO></TIPBOX>\n<TIPBOX>- Statistiche: INT(Intelligenza)<INFO>9</INFO></TIPBOX>\n<TIPBOX>- Statistiche: DEX(Destrezza)<INFO>10</INFO></TIPBOX>\n<TIPBOX>- Statistiche: LUK(Fortuna)<INFO>11</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		},
 		PageEX = {
 			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 210, DistX = 0, DistY = 0, MoveTime = 0 }
 		}
 	},
 	[7] = {
-		Title = "Stats: AGI(Agility)#Stats",
+		Title = "Statistiche: AGI(Agilit‡)' #Stats",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00006",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"AGI has a direct effect on the ^3b488cAttack Speed^000000and ^3b488cEvation Rate^000000goes up.\\nAdditionally, ^3b488cPhysical Defense^000000is also affected.\n<TIPBOX>- Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\n<TIPBOX>- Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\n<TIPBOX>- Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\n<TIPBOX>- Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\n<TIPBOX>- Stats: LUK(Luck)<INFO>11</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"AGI ha direttamente effetto sulla ^3b488cVelocit‡ di Attacco^000000 (Attack Speed) e sulla ^3b488cPossibilit‡ di Evasione^000000 (Evation Rate) aumentandole.\\nInoltre, la ^3b488cDifesa Fisica^000000 viene anche essa modificata.\n<TIPBOX>- Statistiche: STR(Forza)<INFO>6</INFO></TIPBOX>\n<TIPBOX>- Statistiche: VIT(Vitalit‡)<INFO>8</INFO></TIPBOX>\n<TIPBOX>- Statistiche: INT(Intelligenza)<INFO>9</INFO></TIPBOX>\n<TIPBOX>- Statistiche: DEX(Destrezza)<INFO>10</INFO></TIPBOX>\n<TIPBOX>- Statistiche: LUK(Fortuna)<INFO>11</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		},
 		PageEX = {
 			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 223, DistX = 0, DistY = 0, MoveTime = 0 }
 		}
 	},
 	[8] = {
-		Title = "Stats: VIT(Vitality)#Stats",
+		Title = "Statistiche: VIT (Vitaliat‡)'#Stats",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00006",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"VIT has a direct effect on ^3b488cthe max HP^000000and it goes up.\\nAdditionally, ^3b488cPhysical Defense^000000and ^3b488cMagical Defense^000000goes up^3b488cAutomatic recovery of HP^000000is also affected.\n<TIPBOX>- Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\n<TIPBOX>- Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\n<TIPBOX>- Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\n<TIPBOX>- Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\n<TIPBOX>- Stats: LUK(Luck)<INFO>11</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"VIT ha direttamente effetto sugli ^3b488cHP massimi^000000 aumentandoli.\\nInoltre, la ^3b488cDifesa Fisica^000000 e la ^3b488cDifesa Magica^000000 aumentano. La ^3b488cRigenerazione Automatica degli HP^000000 viene anche essa aumentata.\n<TIPBOX>- Statistiche: STR(Forza)<INFO>6</INFO></TIPBOX>\n<TIPBOX>- Statistiche: AGI(Agilit‡)<INFO>7</INFO></TIPBOX>\n<TIPBOX>- Statistiche: INT(Intelligenza)<INFO>9</INFO></TIPBOX>\n<TIPBOX>- Statistiche: DEX(Destrezza)<INFO>10</INFO></TIPBOX>\n<TIPBOX>- Statistiche: LUK(Fortuna)<INFO>11</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		},
 		PageEX = {
 			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 236, DistX = 0, DistY = 0, MoveTime = 0 }
 		}
 	},
 	[9] = {
-		Title = "Stats: INT(Intelligence)#Stats",
+		Title = "Statistiche: INT(Intelligenza)#Stats",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00006",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"INT affects ^3b488cMagic Attack Power^000000and directly affects^3b488cMagical Damage^000000by increasing it.\\nAdditionally, ^3b488c Shortens casting time ^000000, increases ^3b488c magical defense force ^000000, and increases ^3b488c maximum SP amount ^000000, allowing more magic to be used.\n<TIPBOX>- Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\n<TIPBOX>- Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\n<TIPBOX>- Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\n<TIPBOX>- Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\n<TIPBOX>- Stats: LUK(Luck)<INFO>11</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"INT ha effetto sulla ^3b488cPotenza d'Attacco Magico^000000 ed influisce direttamente sul ^3b488cDanno Magico^000000 incrementandolo.\\nInoltre, ^3b488cDiminuisce il Tempo di Cast^000000, aumenta ^3b488cLa Difesa Magica^000000, e aumenta il ^3b488cnumero massimo degli SP^000000, permettendo l'uso di pi˘ magie.\n<TIPBOX>- Statistiche: STR(Forza)<INFO>6</INFO></TIPBOX>\n<TIPBOX>- Statistiche: AGI(Agilit‡)<INFO>7</INFO></TIPBOX>\n<TIPBOX>- Statistiche: VIT(Vitalit‡)<INFO>8</INFO></TIPBOX>\n<TIPBOX>- Statistiche: DEX(Destrezza)<INFO>10</INFO></TIPBOX>\n<TIPBOX>- Statistiche: LUK(Fortuna)<INFO>11</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		},
 		PageEX = {
 			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 250, DistX = 0, DistY = 0, MoveTime = 0 }
 		}
 	},
 	[10] = {
-		Title = "Stats: DEX(Dexterity)#Stats",
+		Title = "Statistiche: DEX(Destrezza)#Stats",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00006",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"DEX affects ^3b488cRanged physical damage^000000and directly affects ^3b488cLong-range attack^000000by increasing it.\\nAdditionally, ^3b488cA^000000increases the probability of successful attack ^3b488cand casting time^000000reduces.^3b488cMagic attack power^000000also goes up.\n<TIPBOX>- Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\n<TIPBOX>- Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\n<TIPBOX>- Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\n<TIPBOX>- Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\n<TIPBOX>- Stats: LUK(Luck)<INFO>11</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"DEX influisce sul ^3b488cDanno Fisico a Distanza^000000 e influisce direttamente sull'^3b488cAttacco a Lungo Raggio^000000 aumentandolo.\\nInoltre, aumenta le ^3b488cprobabilit‡ di successo di un attacco^000000 ed il^3b488cTempo di Cast^000000 viene ridotto. La ^3b488cPotenza d'Attacco Magico^000000 anche essa viene aumentata.\n<TIPBOX>- Statistiche: STR(Forza)<INFO>6</INFO></TIPBOX>\n<TIPBOX>- Statistiche: AGI(Agilit‡)<INFO>7</INFO></TIPBOX>\n<TIPBOX>- Statistiche: VIT(Vitalit‡)<INFO>8</INFO></TIPBOX>\n<TIPBOX>- Statistiche: INT(Intelligenza)<INFO>9</INFO></TIPBOX>\n<TIPBOX>- Statistiche: LUK(Fortuna)<INFO>11</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		},
 		PageEX = {
 			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 263, DistX = 0, DistY = 0, MoveTime = 0 }
 		}
 	},
 	[11] = {
-		Title = "Stats: LUK(Luck)#Stats",
+		Title = "Statistiche: LUK(Fortuna)#Stats",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00006",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"LUK affects ^3b488cCritical Rate^000000There is a probability of giving^3b488cCritical Damage^000000directly to the monster.\\nAdditionally, ^3b488cAccuracy, Evasion Rate, Physical Damage, Magic Attack Power^000000are also affected ^ff0000in different ways by Status, So be careful when investing points.^000000\n<TIPBOX>- Stats: STR(Strength)<INFO>6</INFO></TIPBOX>\n<TIPBOX>- Stats: AGI(Agility)<INFO>7</INFO></TIPBOX>\n<TIPBOX>- Stats: VIT(Vitality)<INFO>8</INFO></TIPBOX>\n<TIPBOX>- Stats: INT(Intelligence)<INFO>9</INFO></TIPBOX>\n<TIPBOX>- Stats: DEX(Dexterity)<INFO>10</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"LUK influisce sulla ^3b488cProbabilit‡ di un Colpo Critico^000000 dando la possibilit‡ di fare ^3b488cDanno Critico^000000 direttamente al mostro.\\nInoltre, ^3b488cAccuratezza, Possibilit‡ di Evasione, Danno Fisico, Potenza d'Attacco Magico^000000 vengono anche essi modificati in ^ff0000differenti modi dallo Status, quindi fai attenzione a come investi i punti.^000000\n<TIPBOX>- Statistiche: STR(Forza)<INFO>6</INFO></TIPBOX>\n<TIPBOX>- Statistiche: AGI(Agilit‡)<INFO>7</INFO></TIPBOX>\n<TIPBOX>- Statistiche: VIT(Vitalit‡)<INFO>8</INFO></TIPBOX>\n<TIPBOX>- Statistiche: INT(Intelligenza)<INFO>9</INFO></TIPBOX>\n<TIPBOX>- Statistiche: DEX(Destrezza)<INFO>10</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		},
 		PageEX = {
 			{ EffectNum = 5, Twinkle = 1, StartX = 12, StartY = 276, DistX = 0, DistY = 0, MoveTime = 0 }
 		}
 	},
 	[12] = {
-		Title = "Auto regen",
+		Title = "Auto Rigenerazione",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00012",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"If you stand still without movement ^3b488cHP and SP recovers little by little.^000000 If you sit down, recovery doubles.\\n^ff0000If Weight exceeds 70%, recovery stops.^000000\n<TIPBOX>- Character: Weight<INFO>13</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Se stai completamente fermo gli ^3b488cHP e SP vengono recuperati un po alla volta.^000000 Se ti siedi (tasto Canc), raddoppia la velocit‡ di rigenerazione. Nella piazza di Prontera c'Ë un Fuoco da Campo che avvicinandosi, rigenerer‡ HP e SP ancora pi˘ velocemente.\\n^ff0000Se il peso supera il 70%, l'auto rigenerazione si ferma.^000000\n<TIPBOX>- Personaggio: Peso<INFO>13</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[13] = {
-		Title = "Character: Weight",
+		Title = "Perdonaggio: Peso",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00012",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"It represents the weight of the item and the weight of the equipment that you are wearing.\\nAfter a certain Weight limit ^ff0000you can no longer have any items.\\nIf Weight is above 70%, HP and SP recovery stops. Additionally if weight exceeds 90%, player cannot attack or use any skill.^000000\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Rappresenta il peso degli oggetti e dell'equipaggiamento che stai trasportanado.\\nDopo un certo limite di Peso ^ff0000Non potrai pi˘ avere oggetti.\\nSe il peso supera il 70%, la rigenerazione degli HP e SP si ferma. Inoltre se il peso supera il 90%, il giocatore non potr‡ pi˘ usare attacchi o abilit‡.^000000 Utilizza il magazzino del servizio Kafra per alleggerire il tuo inventario.\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		},
 		PageEX = {
 			{ EffectNum = 0, Twinkle = 1, StartX = 100, StartY = 185, DistX = 0, DistY = 0, MoveTime = 0 }
 		}
 	},
 	[14] = {
-		Title = "Battle: Attack",
+		Title = "Battaglia: Attacco",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00014",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"Hover your mouse over the monster and your cursor will turn into a sword.\\nAt this time, ^3b488cclick^000000to attack the monster.\n<TIPBOX>- Lock-on mode: Automatic attack<INFO>15</INFO></TIPBOX>\n<TIPBOX>- Battle: Experience<INFO>16</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Muovi il tuo mouse sul mostro ed il tuo cursore si trasformer‡ in una spada.\\n Quindi facendo ^3b488cclick^000000 attaccherai il mostro.\n<TIPBOX>- Modalit‡ blocco: Attacco Automatico<INFO>15</INFO></TIPBOX>\n<TIPBOX>- Battle: Experience<INFO>16</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[15] = {
-		Title = "Lock-on mode: Automatic attack",
+		Title = "Modalit‡ blocco: Attacco Automatico",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00014",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"If you attack a monster while holding down the Ctrl key, ^3b488cyou start auto attacking.^000000You can turn it off by clicking elsewhere.\\nAdditionally, ^3b488cIf you enter /noctrl, you will auto-attack even if you do not press Ctrl.\\nIf you do not want auto-attack, You can turn off automatic attack mode using /noctrl again.^000000\n<TIPBOX>- Battle: Attack<INFO>14</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Se attacchi il tuo mostro mentre tieni premuto il tasto CTRL, ^3b488cdai inizio all'attacco automatico.^000000Lo disattiverai clickando in qualsiasi altro punto.\\nInoltre, ^3b488cse digiti /noctrl in chat, attiverai l'attacco automatico fino a che non premerai di nuovo CTRL.\\nSe non vuoi pi˘ l'auto-attacco, sar‡ sufficiente riscrivere in chat /noctrl di nuovo.^000000\n<TIPBOX>- Battaglia: Attacco<INFO>14</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[16] = {
-		Title = "Battle: Experience",
+		Title = "Battaglia: Esperienza",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00016",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"If you hunt monsters ^3b488cExperience^000000is gained.\\nThe experience gained for the monster is proportional to the damage done to the monster, but even if you do the same damage, the first person to attack the monster receives more experience.\n<TIPBOX>- Battle: Attack<INFO>14</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Se uccidi un mostro guadagnerai ^3b488cEsperienza^000000 (EXP).\\nL'esperienza guadagnata dal mostro Ë proporzionale al danno inflitto al mostro, ma se un altro giocatore, attaccando lo stesso mostro, fa lo stesso tuo danno, prender‡ pi˘ esperienza chi ha effettuato il primo attacco.\n<TIPBOX>- Battaglia: Attacco<INFO>14</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[17] = {
-		Title = "Item",
+		Title = "Oggetti",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00017",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"You can pick up item that fall on the floor by using ^3b488cLeft-click^000000 of mouse.\\nPicked items are put in the item window ALT+E.\n<TIPBOX>- Item: Magnifier<INFO>18</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Puoi raccogliere gli oggetti caduti a terra premendo il ^3b488cTasto Sinistro^000000 del mouse su di essi.\\nGli oggetti raccolti verranno messi nell'inventario (ALT+E).\n<TIPBOX>- Oggetto: Magnifier<INFO>18</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		},
 		PageEX = {
 			{ EffectNum = 5, Twinkle = 1, StartX = 150, StartY = 250, DistX = 0, DistY = 0, MoveTime = 0 }
 		}
 	},
 	[18] = {
-		Title = "Item: Magnifier",
+		Title = "Oggetto: Magnifier",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00018",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"Equipment items obtained from monster are displayed as ^ff0000Unknown item^000000. You can identify this item by using <ITEM>Magnifier<INFO>611 Magnifier</INFO></ITEM> that can be bought from Tool Dealer.\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Gli equipaggiamenti ottenuti dai mostri verranno visualizzati come ^ff0000Unknown item^000000 (Oggetto Sconosciuto). Puoi Identificarli usando l'item <ITEM>Magnifier<INFO>611 Magnifier</INFO></ITEM> che puÚ essere acquistato dal Tool Dealer.\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		},
 		PageEX = {
 			{ EffectNum = 5, Twinkle = 1, StartX = 100, StartY = 88, DistX = 0, DistY = 0, MoveTime = 0 }
 		}
 	},
 	[19] = {
-		Title = "Chatting: Dialog",
+		Title = "Chattare: Dialogo",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00019",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"Enter Chat window to activate it. If you write something you want and press Enter key again, Dialog will be sent.\n<TIPBOX>- Chatting: Chat room<INFO>20</INFO></TIPBOX>\n<TIPBOX>- Chatting: Whisper<INFO>21</INFO></TIPBOX>\n<TIPBOX>- Chatting: Party<INFO>22</INFO></TIPBOX>\n<TIPBOX>- Chatting: Guild<INFO>23</INFO></TIPBOX>\n<TIPBOX>- Chatting: Chat window<INFO>25</INFO></TIPBOX>\n<TIPBOX>- Chatting: Show content<INFO>26</INFO></TIPBOX>\n<TIPBOX>- ¬˜¥‹<INFO>28</INFO></TIPBOX>\n<TIPBOX>- ¿Ã∏º«<INFO>27</INFO></TIPBOX>\n<TIPBOX>- Chatting: Save dialog<INFO>24</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Premere INVIO per attivare la Chat. Puoi scrivere qualsiasi cosa e premendo INVIO, lo invierai.\n<TIPBOX>- Chattare: Stanza Chat<INFO>20</INFO></TIPBOX>\n<TIPBOX>- Chattare: Whisper<INFO>21</INFO></TIPBOX>\n<TIPBOX>- Chattare: Party<INFO>22</INFO></TIPBOX>\n<TIPBOX>- Chattare: Gilda<INFO>23</INFO></TIPBOX>\n<TIPBOX>- Chattare: Finestra della Chat<INFO>25</INFO></TIPBOX>\n<TIPBOX>- Chattare: Mostra Contenuto<INFO>26</INFO></TIPBOX>\n<TIPBOX>- Blocco<INFO>28</INFO></TIPBOX>\n<TIPBOX>- Emoticons<INFO>27</INFO></TIPBOX>\n<TIPBOX>- Chattare: Salvare il dialogo<INFO>24</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		},
 		PageEX = {
 			{ EffectNum = 3, Twinkle = 1, StartX = 100, StartY = 280, DistX = 0, DistY = 0, MoveTime = 0 }
 		}
 	},
 	[20] = {
-		Title = "Chatting: Chat room",
+		Title = "Chattare: Stanza Chat",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00020",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"/Chat room Additionally the /chat can be used for^3b488cChat room^000000 window creation. Additionally /q command can be used to leave the Chat room.\n<TIPBOX>- Chatting: Dialog<INFO>19</INFO></TIPBOX>\n<TIPBOX>- Chatting: Save dialog<INFO>24</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Digitando /chat puoi creare finestre di dialogo denominate ^3b488cChat room^000000. Inoltre scrivendo il comando /q (quit) abbandonerai la chat in cui sei entrato.\n<TIPBOX>- Chattare: Dialogo<INFO>19</INFO></TIPBOX>\n<TIPBOX>- Chattare: Salvare il dialogo<INFO>24</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[21] = {
-		Title = "Chatting: Whisper",
+		Title = "Chattare: Whisper",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00021",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"Chat window in the left field can be used to enter a character name to whisper the character.\n^3b488cAlt + H^000000shows ^3b488cthe window^000000 which you can open to see who you are whispering.\n<TIPBOX>- Block<INFO>28</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Inserendo un nome nella casella a sinistra della chat, bisbiglierai al personaggio in questione.\n^3b488cAlt+H^000000 mostra ^3b488cla finestra^000000 con la quale puoi vedere con chi stai Bisbigliando. In questa maniera nessun altro giocatore potr‡ leggere la vostra conversazione.\n<TIPBOX>- Blocco<INFO>28</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		},
 		PageEX = {
 			{ EffectNum = 3, Twinkle = 1, StartX = 30, StartY = 260, DistX = 0, DistY = 0, MoveTime = 0 }
 		}
 	},
 	[22] = {
-		Title = "Chatting: Party",
+		Title = "Chattare: Party",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00022",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"Dialog with Party members can be done by pressing CTRL + ENTER.\\nAdditionally,Press the ^3b488c blue circle ^000000 on the right side of the chat window to set ^3b488c receiving group ^000000.\n<TIPBOX>- Chatting: Guild<INFO>23</INFO></TIPBOX>\n<TIPBOX>- Party system<INFO>29</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Parlare con il proprio party Ë possibile premendo i tasti CTRL+INVIO.\\nInoltre, se premi il ^3b488cpallino blu^000000 sul lato destro della finestra di chat puoi impostare il ^3b488cParty che ricever‡ i tuoi messaggi^000000.\n<TIPBOX>- Chattare: Gilda<INFO>23</INFO></TIPBOX>\n<TIPBOX>- Sistema dei Party<INFO>29</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[23] = {
-		Title = "Chatting: Guild",
+		Title = "Chattare: Gilda",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00023",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"Dialogs with Guild members can be toggled by pressing ALT + ENTER if you want to use /gc.\\nAdditionally, if you press ^3b488c blue circle ^000000 on the right side of the chat window, you can set ^3b488c receiving group ^000000.\n<TIPBOX>- Chatting: Party<INFO>22</INFO></TIPBOX>\n<TIPBOX>- Guild system<INFO>30</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"I dialoghi con i membri di Gilda possono essere attivati e disattivati premendo ALT+INVIO oppure usando il comando /gc in chat.\\nInoltre, se premi il ^3b488cpallino blu^000000 sulla destra della finestra di chat, puoi impostare il ^3b488cParty che ricever‡ i tuoi messaggi^000000.\n<TIPBOX>- Chatting: Party<INFO>22</INFO></TIPBOX>\n<TIPBOX>- Guild system<INFO>30</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[24] = {
-		Title = "Chatting: Save dialog",
+		Title = "Chattare: Salvare il dialogo",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00024",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"Save the contents of the chat as a file with /capture /savechat.\nDialog content is stored in the Chat folder of the folder where Ragnarok is installed.\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Salvare i contenuti dei dialoghi usando i comandi /capture oppure /savechat.\nLe conversazioni saranno salvate nella cartella Chat dove Ë stato installato Ragnarok.\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		},
 		PageEX = {
 			{ EffectNum = 3, Twinkle = 1, StartX = 100, StartY = 210, DistX = 0, DistY = 0, MoveTime = 0 }
 		}
 	},
 	[25] = {
-		Title = "Chatting: Chat window",
+		Title = "Chattare: Finestra della Chat",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00025",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"^3b488cYou can adjust the size of the chat window with F10 ^000000.\\nAlt + F10 to turn chat window on /off.\n<TIPBOX>- Chatting: Show content<INFO>26</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"^3b488cPuoi regolare la misura della finestra di chat premendo F10^000000.\\nAlt+F10 per disattivare o riattivare la chat.\n<TIPBOX>- Chattare: Mostra Contenuto<INFO>26</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		},
 		PageEX = {
 			{ EffectNum = 3, Twinkle = 1, StartX = 120, StartY = 150, DistX = 0, DistY = 0, MoveTime = 0 }
 		}
 	},
 	[26] = {
-		Title = "Chatting: Show content",
+		Title = "Chattare: Mostra Contenuto",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00026",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"Entering /notalkmsg in the chat window will not display the chat contents in the chat window. On/Off\\nIf you enter /notalkmsg2, chat contents including the guild are not displayed in the chat window. On/Off\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Digitando /notalkmsg nella finestra della chat, non verra pi˘ visualizzato in contenuto della chat. On/Off\\nSe digiti /notalkmsg2, escluderai anche la chat di gilda. On/Off\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[27] = {
-		Title = "Emotion",
+		Title = "Emoticons",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00027",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"Press ALT + L or enter /emotion to see a list of available ^3b488c emotions ^000000.\\n\\nPress Ctrl, -, and \\ to select scissors, rocks, and others.\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Premi ALT+L o digita /emotion per vedere la lista delle ^3b488cemoticons^000000 disponibili.\\n\\nPremi  Ctrl, -, e \\ per selezionare sasso, carta e altri.\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[28] = {
-		Title = "Block",
+		Title = "Blocco",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00028",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"/Block character name and /ex Character name blocks the character or whisper, etc. To cancel, the character name can be unset with / in Character name.\\nAdditionally, You can block or disable all Dialogs and Whispers with /all, /exall, and /inall commands.\\nIf you want to see a list of blocked characters, you can / .\\n^ff0000 (Y / N) is not asked, so you have to choose carefully.^000000\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Digitando /block + Nome Personaggio oppure /ex + Nome Personaggio bloccherai i dialoghi col personaggio in questione e i whisper, etc. Per cancellare il comando, Ë sufficiente digitare /in + Nome Personaggio.\\nInoltre, puoi bloccare o riabilitare tutti i dialighi e whisper di tutti con i comandi /all, /exall, e /inall.\\Se vuoi vedere la Lista dei Personaggi Bloccati, puoi / .\\n^ff0000Non verr‡ richiesta nessuna conferma, quindi presta attenzione.^000000\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[29] = {
-		Title = "Party system",
+		Title = "Sistema dei Party ",
 		Search = 1,
 		Image = "¿Ø¿˙¿Œ≈Õ∆‰¿ÃΩ∫\\tipbox\\tip00029",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"You can create a party with the name /organize Party.\\nYou can leave the party with /leave.",
-			"If you become a party leader by forming a party, you can right-click on the opponent character and select the 'Invite to party' menu or invite it to the party by invitation character name.\\nIf you want to expire the party circle /Name of the character You can expel the party circle of the party ^000000 you are the leader of ^3b488c by the name of the character /expel Character.\\n^ff0000 (Y / N).^000000\n<TIPBOX>- Chatting: Party<INFO>22</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Puoi creare un party digitando /organize + Nome Party.\\nPuoi uscire dal party in qualsiasi momento digitando /leave.",
+			"Se crei un party, diventerai il leader, se vuoi invitare un altro giocatore, basta cliccare col tasto destro sul personaggio e clicciare su 'Invite to party' nel menu o digitando il comando /invite + Nome Personaggio.\\nSe si Ë il Leader del party, puoi espellere un giocatore o cliccando col tasto destro del mouse e successivamente su 'Expel from Party' oppure tramite il comando /expel + Nome Personaggio. \\n^ff0000Non verr‡ chiesta alcuna conferma.^000000\n<TIPBOX>- Chattare: Party<INFO>22</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[30] = {
-		Title = "Guild system",
+		Title = "Sistema di Gilda",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"Using /Guild, You can create a guild by name. To create a guild, one emperium is consumed.\nThe information of the guild to which it belongs can be seen as ALT + G.\\n^ff0000Guild The master can dismantle the guild. If you do not have a guild circle except for a guild master, you will be dismissed if you enter /dismiss the guild.\\nYou will not be asked for Y / N, so you must choose carefully.^000000\n<TIPBOX>- Chatting: Guild<INFO>23</INFO></TIPBOX>\n<TIPBOX>- Guild: Position<INFO>31</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Usando il comando /guild + Nome Gilda puoi creare una gilda. Per crearla Ë necessario un Emperium che verr‡ consumato nel processo di creazione.\nPer vedere le Informazioni di Gilda, basta premere ALT+G.\\n^ff0000Il Capo della Gilda, puÚ smantellare la Gilda in qualsiasi momento. E' sufficiente usare il comando /dismiss + Nome Gilda e solo il capo gilda puÚ farlo.\\nNon verr‡ richiesta nessuna conferma, quindi presta attenzione.^000000\n<TIPBOX>- Chattare: Gilda<INFO>23</INFO></TIPBOX>\n<TIPBOX>- Gilda: Posizioni<INFO>31</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[31] = {
-		Title = "Guild: Position",
+		Title = "Gilda: Posizioni",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"You can set the position of guild members in the position setting field of the guild information window. The Guild position can control the granting of various rights or the experience required for guild growth.\n<TIPBOX>- Guild system<INFO>30</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Puoi organizzare la posizione dei membri di Gilda tramite la finestra delle informazioni della gilda. Questo permette ai membri di avere poteri specifici o Ë possibile variare l'exp donabile alla gilda per farla crescere di livello pi˘ velocemente.\n<TIPBOX>- Sistema di Gilda<INFO>30</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[32] = {
-		Title = "Game Option window",
+		Title = "Finestra Opzioni di Gioco",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"Press ESC to open Game Option window.\n<TIPBOX>- Game option: Game setting<INFO>33</INFO></TIPBOX>\n<TIPBOX>- Game option: Hotkey<INFO>41</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Premere  ESC per aprire la finestra dei menu di Gioco.\n<TIPBOX>- Opzione di Gioco: Impostazioni di gioco<INFO>33</INFO></TIPBOX>\n<TIPBOX>- Opzione di Gioco: Tasti Rapidi<INFO>41</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[33] = {
-		Title = "Game option: Game setting",
+		Title = "Opzione di Gioco: Impostazioni di gioco",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"You can control various options to make your game play better.\n<TIPBOX>- Game setting: Advanced Setting<INFO>40</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Puoi cambiare diverse opzioni per migliorare la tua esperienza di gioco.\n<TIPBOX>- Impostazioni di gioco: Impostazioni Avanzate<INFO>40</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[40] = {
-		Title = "Game setting: Advanced Setting",
+		Title = "Impostazioni di gioco: Impostazioni Avanzate",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"You can control the game graphics.\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Puoi modificare la grafica di gioco.\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[41] = {
-		Title = "Game option: Hotkey",
+		Title = "Opzione di Gioco: Tasti Rapidi",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"You can add or edit Hotkey.\n<TIPBOX>- Hotkey: Macro<INFO>42</INFO></TIPBOX>\n<TIPBOX>- Hotkey: Skill bar<INFO>43</INFO></TIPBOX>\n<TIPBOX>- Hotkey: Battle Mode<INFO>44</INFO></TIPBOX>\n<TIPBOX>- Hotkey: F1~F12<INFO>45</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Puoi modificare o aggiungere tasti rapidi.\n<TIPBOX>- Tasti Rapidi: Macro<INFO>42</INFO></TIPBOX>\n<TIPBOX>- Tasti Rapidi: Barra Abilit‡<INFO>43</INFO></TIPBOX>\n<TIPBOX>- Tasti Rapidi: Modalit‡ Battaglia<INFO>44</INFO></TIPBOX>\n<TIPBOX>- Tasti Rapidi: F1~F12<INFO>45</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[42] = {
-		Title = "Hotkey: Macro",
+		Title = "Tasti Rapidi: Macro",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"ALT+M You can edit the Macro list. You can use Macro by pressing ALT + 1 ~ 0.\n<TIPBOX>- Game option: Hotkey<INFO>41</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Digitando ALT+M puoi modificare la lista delle Macro. Puoi usare le Macro usando ALT + 1 ~ 0.\n<TIPBOX>- Opzione di Gioco: Tasti Rapidi<INFO>41</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[43] = {
-		Title = "Hotkey: Skill bar",
+		Title = "Tasti Rapidi: Barra Abilit‡",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"Skill bar (F12) frequently used skill is registered by registering the item in the slot by double-clicking the mouse or by pressing the shortcut key is easy to use.\\nThe first Skill bar corresponds to the F1 ~ F9 key, > You can change the corresponding Hotkey in the Hotkey settings. Hotkeys 2 to 4 of the Skill bar can only be used in Battle Mode.\\nSkill bar allows you to select items and drag them into the squares.\n<TIPBOX>- Game option: Hotkey<INFO>41</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"La barra delle Abilit‡ (F12) permette di usare le abilit‡ (skills) del personaggio in modo pi˘ rapido e semplice, invece di fare doppio click sull'abilit‡ dall'apposito menu.\\nLa prima barra comprende i tasti da F1 a F9, e la si puÚ modificare in qualsiasi momento del menu delle Opzioni. I tasti rapidi da 2 a 4 della barra delle abilit‡ possono essere usati solo in Modailit‡ Combattimento.\\nLa barra delle abilit‡ permette anche di selezionare oggetti, semplicemente trascinandoli nel quadrato (come per le abuilit‡).\n<TIPBOX>- Opzione di Gioco: Tasti Rapidi<INFO>41</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[44] = {
-		Title = "Hotkey: Battle Mode",
+		Title = "Tasti Rapidi: Modalit‡ Battaglia",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"Battle Mode locks the chat feature so you can use the Hotkey registered in the Skill bar on your keyboard. You can turn it on /off with /bm.\\n^ff0000 In chat mode, chat is locked by default, but you can press the enter key to activate chat window.^000000\n<TIPBOX>- Game option: Hotkey<INFO>41</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"La Modalit‡ Battaglia blocca le funzioni della chat in modo da poter utilizzare i tasti rapidi assegnati nella barraa delle abilit‡ per usarle come impostate precedentemente. La si attiva e disattiva tramite il comando /bm.\\n^ff0000Nella modalit‡ normale, la chat si attiva premendo il tasto INVIO nella finestra di gioco.^000000\n<TIPBOX>- Opzione di Gioco: Tasti Rapidi<INFO>41</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[45] = {
-		Title = "Hotkey: F1~F12",
+		Title = "Tasti Rapidi: F1~F12",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"F1 ~ F9: You can use the skills registered in the Skill bar.\\nF10: You can adjust the size of the chat window.\\nF11: Close all windows leaving only the default info window and dialog window.\\nF12: Skill You can open and close the bar.\n<TIPBOX>- Game option: Hotkey<INFO>41</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"F1 ~ F9: Permette l'uso delle abilit‡ registrate nella barra delle Abilit‡.\\nF10: Ridimensiona la finestra di chat.\\nF11: Chiude tutte le finestre, fatta eccezione per le finestre di info e dialogo.\\nF12: Apre e chiude altre barre delle abilit‡.\n<TIPBOX>- Opzione di Gioco: Tasti Rapidi<INFO>41</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[1000] = {
-		Title = "Tip box: Item",
+		Title = "Bacheca dei suggerimenti: Oggetti",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"You can see a list of tips.\\nTips that are not in the list can be found by searching and continue with the new tips. Preface will be updated.\n<TIPBOX>- Character<INFO>1001</INFO></TIPBOX>\n<TIPBOX>- Gameplay<INFO>1002</INFO></TIPBOX>\n<TIPBOX>- Communication<INFO>1003</INFO></TIPBOX>\n<TIPBOX>- Ragnarok World<INFO>4000</INFO></TIPBOX>"
+			"Puoi vedere la lista dei suggerimenti.\\nI suggerimenti non presenti nell'elenco possono essere trovati cercando e continuando con i nuovi suggerimenti. PurchÈ venga aggiornato.\n<TIPBOX>- Personaggio<INFO>1001</INFO></TIPBOX>\n<TIPBOX>- Gameplay<INFO>1002</INFO></TIPBOX>\n<TIPBOX>- Comunicazione<INFO>1003</INFO></TIPBOX>\n<TIPBOX>- Il Mondo di Ragnarok<INFO>4000</INFO></TIPBOX>"
 		}
 	},
 	[1001] = {
-		Title = "Character",
+		Title = "Personaggio",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"<TIPBOX>- Character: Level Up<INFO>5</INFO></TIPBOX>\n<TIPBOX>- Character: HP and SP<INFO>3</INFO></TIPBOX>\n<TIPBOX>- Character: Status<INFO>6</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"<TIPBOX>- Personaggio: Salire di Livello<INFO>5</INFO></TIPBOX>\n<TIPBOX>- Personaggio: HP e SP<INFO>3</INFO></TIPBOX>\n<TIPBOX>- Personaggio: Statistiche<INFO>6</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[1002] = {
@@ -428,144 +428,144 @@ tbl = {
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"<TIPBOX>- Battle<INFO>14</INFO></TIPBOX>\n<TIPBOX>- Item<INFO>17</INFO></TIPBOX>\n<TIPBOX>- Game Option window<INFO>32</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"<TIPBOX>- Battaglia<INFO>14</INFO></TIPBOX>\n<TIPBOX>- Oggetti<INFO>17</INFO></TIPBOX>\n<TIPBOX>- Finestra Opzioni di Gioco<INFO>32</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[1003] = {
-		Title = "Communication",
+		Title = "Comunicazione",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"<TIPBOX>- Chatting<INFO>19</INFO></TIPBOX>\n<TIPBOX>- Party<INFO>29</INFO></TIPBOX>\n<TIPBOX>- Guild<INFO>30</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"<TIPBOX>- Chattare<INFO>19</INFO></TIPBOX>\n<TIPBOX>- Party<INFO>29</INFO></TIPBOX>\n<TIPBOX>- Gilda<INFO>30</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[4000] = {
-		Title = "The world of Ragnarok",
+		Title = "Il Mondo di Ragnarok",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"In the Ragnarok world, the stage of adventure is largely categorized as Land of Midgard, where humans are central, \nLand beyond fairies and giants, and Unknown localization found by explorers.\n<TIPBOX>- Midgard Continent<INFO>4001</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Nel Mondo di Ragnarok Ë un palcoscenico di avventure tra le sue mappe denominate come 'Le Terre di Midgard', dove gli umani ne sono il centro, \noltre alle Fate e ai Giganti, vi sono localit‡ sconosciute trovate dagli Esploratori.\n<TIPBOX>- Il Continente di Midgard<INFO>4001</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[4001] = {
-		Title = "Midgard Continent",
+		Title = "Il Continente di Midgard",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"Midgard is the home of the surviving human beings and the central continent since the temple where the clan, the Asmodians, and the humans fought for each other's beliefs.\nThere are three countries that are the main axis along the southeast coast of the Midgard Continent.\n<TIPBOX>- Rune Midgard Kingdom<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- Schwartzwald Republic<INFO>4040</INFO></TIPBOX>\n<TIPBOX>- Arunafeltz country<INFO>4050</INFO></TIPBOX>\n\\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Midgard Ë la casa degli esseri umani sopravvissuti e del continente centrale dal tempio in cui il clan, gli Asmodiani e gli umani combatterono per le credenze degli uni e degli altri. Ci sono tre paesi che sono l'asse principale lungo la costa sud-est del continente di Midgard.\n<TIPBOX>- Regno di Rune Midgard<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- Repubblica di Schwartzwald<INFO>4040</INFO></TIPBOX>\n<TIPBOX>- Paese di Arunafeltz<INFO>4050</INFO></TIPBOX>\n\\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[4004] = {
-		Title = "Rune Midgard Kingdom",
+		Title = "Regno di Rune Midgard",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"The heritage of the heroes of the temple.\nThe royal family system is centered on the seven clan families linking the hero's lineage. It covers the southern region based on the Myogneil Mountains.\nKing We encourage the development of adventurers in preparation for the endangered species and provide a lot of support.\n<TIPBOX>- ø’µµ «¡∑–≈◊∂Û<INFO>4005</INFO></TIPBOX>\n<TIPBOX>- ∏∂π˝µµΩ√ ∞‘∆Ê<INFO>4006</INFO></TIPBOX>\n<TIPBOX>- Desert city Morocc<INFO>4007</INFO></TIPBOX>\n<TIPBOX>- ªÍæ«µµΩ√ ∆‰¿ÃøÊ<INFO>4008</INFO></TIPBOX>\n<TIPBOX>- «◊±∏µµΩ√ æÀ∫£∏£≈∏<INFO>4009</INFO></TIPBOX>\n<TIPBOX>- ±π∞ÊµµΩ√ æÀµ•πŸ∂ı<INFO>4010</INFO></TIPBOX>\n<TIPBOX>- »ﬁæÁµµΩ√ ƒ⁄∏µµ<INFO>4011</INFO></TIPBOX>\n<TIPBOX>- ∫Œ¡∑∏∂¿ª øÚπﬂ∂Û<INFO>4012</INFO></TIPBOX>\n<TIPBOX>- ¿ßº∫µµΩ√ ¿Ã¡Ó∑ÁµÂ<INFO>4013</INFO></TIPBOX>\n\\n<TIPBOX>- ¿Ã¿¸ ∆‰¿Ã¡ˆ∑Œ<INFO>4001</INFO></TIPBOX>\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>",
-			"With the heroic king Goeborg as the main axis, the people selected by the throne in Heine, Nerius, Walter, Richard, Wigner, and Rogenburg have succeeded the throne. In the royal family, before the full winter comes, there is also a royal hunting contest for the elimination of wastes."
+			"L'eredit‡ degli eroi del tempio.\nIl sistema familiare reale Ë incentrato sulle sette famiglie di clan che collegano il lignaggio dell'eroe. Copre la regione meridionale basata sulle Montagne Myogneil.\nI Re incoraggiano lo sviluppo di avventurieri e la loro preparazione per le specie in via di estinzione e forniscono molto supporto.\n<TIPBOX>- La Reale Prontera<INFO>4005</INFO></TIPBOX>\n<TIPBOX>- La Magica Citt‡ di Geffen<INFO>4006</INFO></TIPBOX>\n<TIPBOX>- La Citt‡ Deserto di Morroc<INFO>4007</INFO></TIPBOX>\n<TIPBOX>- La Citt‡ Montana di Payon<INFO>4008</INFO></TIPBOX>\n<TIPBOX>- La Citt‡ Porto di Alberta<INFO>4009</INFO></TIPBOX>\n<TIPBOX>- La Citt‡ Confine di Aldebaran<INFO>4010</INFO></TIPBOX>\n<TIPBOX>- La Citt‡ Ricreativa di Comodo<INFO>4011</INFO></TIPBOX>\n<TIPBOX>- Il Villaggio Tribale di Umbala<INFO>4012</INFO></TIPBOX>\n<TIPBOX>- La Citt‡ Satellite di Izlude<INFO>4013</INFO></TIPBOX>\n\\n<TIPBOX>- Il Continente di Midgard<INFO>4001</INFO></TIPBOX>\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>",
+			"Con l'eroico Re Goeborg come asse principale, le persone selezionate al trono come Heine, Nerius, Walter, Richard, Wigner e Rogenburg sono succedute ad esso. Nella famiglia reale, prima che arrivi l'inverno, c'Ë anche una gara di caccia reale per l'eliminazione dei rifiuti."
 		}
 	},
 	[4005] = {
-		Title = "Royal Prontera",
+		Title = "La Reale Prontera",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"It is the center of the rune-midgats royal palace and is the royal road with the palace.\nIt is peaceful because it has a wide field in the back of the Myol Neolithic Mountains, - There are many cathedrals who have Josin Goddess and a Knights Templar who are priests and knights.\n\\n<NAVI>[«¡∑–≈◊∂Û ¥Îº∫¥Á]<INFO>prontera,235,315,0,101,0</INFO></NAVI>\n<NAVI>[≈©∑Áºº¿Ã¥ı ¡˝π´Ω«]<INFO>prt_cas,248,102,0,101,0</INFO></NAVI>\n<NAVI>[«¡∑–≈◊∂Û ±‚ªÁ¥‹]<INFO>prontera,49,342,0,101,0</INFO></NAVI>\n<NAVI>[º∫ ƒ´««≈Á∏Æ≥™ ºˆµµø¯]<INFO>prt_monk,180,205,0,101,0</INFO></NAVI>\n\\n<TIPBOX>- ¿Ã¿¸ ∆‰¿Ã¡ˆ∑Œ<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"E' il centro del palazzo reale di Rune-Midgard ed ha una strada principale che porta ad esso.\n» un posto pacifico perchÈ ha un ampio campo nella parte posteriore delle Montagne Neolitiche di Myol, inoltre vi sono molte Cattedrali che raffigurano la Dea Josin e un Cavaliere Templare che rappresentano sacerdoti e cavalieri.\n\\n<NAVI>[Chiesa di Prontera]<INFO>prontera,235,315,0,101,0</INFO></NAVI>\n<NAVI>[Palazzo Centrale]<INFO>prt_cas,248,102,0,101,0</INFO></NAVI>\n<NAVI>[Caserma della Cavalleria]<INFO>prontera,49,342,0,101,0</INFO></NAVI>\n<NAVI>[Monastero]<INFO>prt_monk,180,205,0,101,0</INFO></NAVI>\n\\n<TIPBOX>- Regno di Rune Midgard<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[4006] = {
-		Title = "Magic city Geffen",
+		Title = "La Magica Citt‡ di Geffen",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"A city of mages located beyond Prontera West Wetlands. There is a rumor that there is the Mato Paget Tower in the center and the place where the legendary city of Geffenia was located. Often the magicians hold the Geffen Magical Competition.\n\\n<NAVI>[∏∂º˙ªÁ Guild]<INFO>geffen_in,164,124,0,101,0</INFO></NAVI>\n<NAVI>[∞‘∆Ê ≈∏øˆ √÷ªÛ√˛]<INFO>gef_tower,111,27,0,101,0</INFO></NAVI>\n<NAVI>[∞‘∆Ê ∏Ìπ∞ ¿¸∏¡¥Î]<INFO>gef_fild07,179,242,0,101,0</INFO></NAVI>\n\\n<TIPBOX>- ¿Ã¿¸ ∆‰¿Ã¡ˆ∑Œ<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Una citt‡ di maghi situata oltre le zone umide occidentali di Prontera. C'Ë una voce che ci sia la Mato Paget Tower nel centro e il luogo in cui si trovava la leggendaria citt‡ di Geffenia. Spesso i maghi tengono la Competizione Magica di Geffen.\n\\n<NAVI>[∏∂º˙ªÁ Guild]<INFO>geffen_in,164,124,0,101,0</INFO></NAVI>\n<NAVI>[∞‘∆Ê ≈∏øˆ √÷ªÛ√˛]<INFO>gef_tower,111,27,0,101,0</INFO></NAVI>\n<NAVI>[∞‘∆Ê ∏Ìπ∞ ¿¸∏¡¥Î]<INFO>gef_fild07,179,242,0,101,0</INFO></NAVI>\n\\n<TIPBOX>- Regno di Rune Midgard<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[4007] = {
-		Title = "Desert city Morocc",
+		Title = "La Citt‡ Deserto di Morroc",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"After the temple was over, Dr Morok went down to the Midgard Continent. Morocca was sealed by the activity of Majestic Tanatos, but in the aftermath of the seal it became a desert. The town was formed around an oasis, and the name of the city became Morocco because it was sealed with Morok. As Morok broke the seal recently, the city and its neighboring deserts were again destroyed, and the city was rebuilt.\n\\n<NAVI>[µµµœ Guild]<INFO>moc_prydb1,39,126,0,101,0</INFO></NAVI>\n<NAVI>[æÓΩÿΩ≈ Guild]<INFO>moc_fild16,206,290,0,101,0</INFO></NAVI>\n\\n<TIPBOX>- ¿Ã¿¸ ∆‰¿Ã¡ˆ∑Œ<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>",
-			"Along with the unique culture of a desert city developed around an oasis, there are ancient mysterious buildings, old defense fortresses, desert threats and ants.\n\\n<NAVI>[««∂ÛπÃµÂ]<INFO>moc_ruins,64,162,0,101,0</INFO></NAVI>\n<NAVI>[Ω∫«Œ≈©Ω∫]<INFO>moc_fild19,105,100,0,101,0</INFO></NAVI>\n<NAVI>[ªÍ¥Ÿ∏£∏∏ ø‰ªı]<INFO>cmd_fild08,98,129,0,101,0</INFO></NAVI>\n<NAVI>[∞≥πÃ±º]<INFO>cmd_fild08,326,351,0,101,0</INFO></NAVI>\n"
+			"Dopo che il tempio Ë stato finito, il Dott. Morok scese nel continente di Midgard. Morocca fu suggellata dall'attivit‡ di Tanatos il Maestoso, ma all'indomani del sigillo divenne un deserto. La citt‡ si Ë formata attorno a un'oasi e il nome della citt‡ Ë diventato poi Morroc perchÈ Ë stata suggellata con Morok. Di recente, quando Morok ha rotto il sigillo, la citt‡ e i suoi vicini deserti sono stati nuovamente distrutti e la citt‡ Ë stata ricostruita.\n\\n<NAVI>[Guild dei Ladri]<INFO>moc_prydb1,39,126,0,101,0</INFO></NAVI>\n\\n<TIPBOX>- Regno di Rune Midgard<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>",
+			"Insieme alla cultura unica di una citt‡ deserto sviluppata attorno a un'oasi, ci sono antichi edifici misteriosi, antiche fortezze difensive, minacce e formiche del deserto.\n\\n<NAVI>[Piramide di Morroc]<INFO>moc_ruins,64,162,0,101,0</INFO></NAVI>\n<NAVI>[Sfinge di Morroc]<INFO>moc_fild19,105,100,0,101,0</INFO></NAVI>\n<NAVI>[Fortezza di Santa Darmain]<INFO>cmd_fild08,98,129,0,101,0</INFO></NAVI>\n<NAVI>[Inferno delle Formiche]<INFO>cmd_fild08,326,351,0,101,0</INFO></NAVI>\n"
 		}
 	},
 	[4008] = {
-		Title = "Mountain city Payon",
+		Title = "La Citt‡ Montana di Payon",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"Rune - a city in the southeastern mountains of Midtown. Due to the complex mountains and forests that have long been disconnected from the outside, they have formed a very unique culture. There are many stories about receiving the favor of the private water or the new water. There are many good hunters and hunters, and there is a cave in the north cave.\n\\n<NAVI>[±√ºˆ Guild]<INFO>payon_in02,64,71,0,101,0</INFO></NAVI>\n<NAVI>[∆‰¿ÃøÊ ∫“ªÛ]<INFO>pay_arche,137,31,0,101,0</INFO></NAVI>\n<NAVI>[∆Û∞°√Ã]<INFO>pay_dun03,155,147,0,101,0</INFO></NAVI>\n\\n<TIPBOX>- ¿Ã¿¸ ∆‰¿Ã¡ˆ∑Œ<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Rune - una citt‡ nelle montagne sudorientali di Midtown. A causa delle complesse montagne e foreste che sono state a lungo disconnesse dall'esterno, si Ë formata una cultura davvero unica. Ci sono molte storie su come ricevere il favore dell'acqua privata o della nuova acqua. Ci sono molti buoni cacciatori e cacciatrici, e c'Ë una cava nelle grotte a nord.\n\\n<NAVI>[Gilda degli Arcieri]<INFO>payon_in02,64,71,0,101,0</INFO></NAVI>\n<NAVI>[Villaggio degli Arcieri]<INFO>pay_arche,137,31,0,101,0</INFO></NAVI>\n<NAVI>[Cava di Payon]<INFO>pay_dun03,155,147,0,101,0</INFO></NAVI>\n\\n<TIPBOX>- Regno di Rune Midgard<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[4009] = {
-		Title = "Port city Alberta",
+		Title = "La Citt‡ Porto di Alberta",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"It is a city with a harbor connecting all the waterways of Midgard and also known as the commercial city because the merchant Guild is located. It is a place where people who enjoy an unknown expedition through the water and those who read the flow of money gather.\n\\n<NAVI>[ªÛ¿Œ Guild]<INFO>alberta_in,56,43</INFO></NAVI>\n\\n<TIPBOX>- ¿Ã¿¸ ∆‰¿Ã¡ˆ∑Œ<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"» una citt‡ con un porto che collega tutte le vie marittime di Midgard e anche conosciuta come la citt‡ commerciale perchÈ vi si trova la Gilda dei Mercanti. » un posto dove le persone che amano avventurarsi in spedizioni sconosciute via mare e coloro che seguono il flusso del vil denaro, si riuniscono.\n\\n<NAVI>[Gilda dei Mercanti]<INFO>alberta_in,56,43</INFO></NAVI>\n\\n<TIPBOX>- Regno di Rune Midgard<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[4010] = {
-		Title = "Border city Aldebaran",
+		Title = "La Citt‡ Confine di Aldebaran",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"It is located in the northern part of the Myogneil Mountains, just below the border with Schwartzwald. It is a beautiful city with a canal stretching all the way around a huge clock tower in the center. There is a border checkpoint in the north.\n\\n<TIPBOX>- ¿Ã¿¸ ∆‰¿Ã¡ˆ∑Œ<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Si trova nella parte settentrionale delle Montagne di Myogneil, appena sotto il confine con Schwartzwald. » una bella citt‡ con un canale che si estende su tutta intorno all'enorme torre dell'orologio situata nel centro. C'Ë un  punto di controllo di confine a nord.\n\\n<TIPBOX>- Regno di Rune Midgard<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[4011] = {
-		Title = "Recreational city Comodo",
+		Title = "La Citt‡ Ricreativa di Comodo",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"A mysterious village with caves formed beneath the southwestern coast. Since there are many tourists visiting for the purpose of recreation, many local specialty products have been developed. Nearby are marshes, jungles and secret caves, which are also a fascinating place for explorers.\n\\n<TIPBOX>- ¿Ã¿¸ ∆‰¿Ã¡ˆ∑Œ<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Un misterioso villaggio con grotte formate sotto la costa sud-occidentale. Dal momento che ci sono molti turisti in visita a scopo ricreativo, sono stati sviluppati molti prodotti di specialit‡ locali. Nelle vicinanze si trovano paludi, giungle e grotte segrete, che sono anche un posto affascinante per gli esploratori.\n\\n<TIPBOX>- Regno di Rune Midgard<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[4012] = {
-		Title = "Tribal village Umbala",
+		Title = "Il Villaggio Tribale di Umbala",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"A small tribal village in the northern jungle area of Komodo. It is a village of tribes living in the same way that they live in the original lifestyle apart from civilization. There is a story that the roots of the world number Egudrasil have reached. We do not use continental official language.\n\\n<TIPBOX>- ¿Ã¿¸ ∆‰¿Ã¡ˆ∑Œ<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Un piccolo villaggio tribale nella zona della giungla settentrionale di Komodo. » un villaggio della stessa trib˘ che viveva allo stesso modo in cui vivono i loro avi nello stile di vita originale, a parte la civilt‡ tutta intorno. C'Ë una storia riguardo le radici del mondo di Egudrasil che lo hanno raggiunto. In questo villaggio non si usa la lingua ufficiale continentale.\n\\n<TIPBOX>- Regno di Rune Midgard<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[4013] = {
-		Title = "Satellite city Izlude",
+		Title = "La Citt‡ Satellite di Izlude",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"A small city on the east coast of Prontera. It is a satellite city formed to assist the capital Frontera. There is a supportive institute for the cultivation of adventurers, the Critura School and the Inspection Guild, and also serves as a small port.\n\\n<NAVI>[∞ÀªÁ Guild]<INFO>izlude_in,74,172</INFO></NAVI>\n\\n<TIPBOX>- ¿Ã¿¸ ∆‰¿Ã¡ˆ∑Œ<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"Una piccola citt‡ sulla costa orientale di Prontera. » una citt‡ satellite formata per assistere la capitale Prontera. C'Ë un istituto di supporto per la formazione degli avventurieri, la Scuola Critura e la Gilda d'Ispezione, e serve anche come piccolo porto.\n\\n<NAVI>[Gilda degli Spadaccini]<INFO>izlude_in,74,172</INFO></NAVI>\n\\n<TIPBOX>- Regno di Rune Midgard<INFO>4004</INFO></TIPBOX>\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[4040] = {
-		Title = "Schwartzwald Republic",
+		Title = "Repubblica di Schwartzwald",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"The city of wisdom The capital city of Yuno is the northern part of the country. It adopts the Republic with the president and the parliament, and it is a country where the industry has developed due to the huge corporation rekenber.\n\\n<TIPBOX>- ¿Ã¿¸ ∆‰¿Ã¡ˆ∑Œ<INFO>4001</INFO></TIPBOX>\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"La citt‡ della saggezza La capitale di Yuno Ë la parte settentrionale del paese. Adotta la Repubblica con il presidente e il parlamento, ed Ë un paese in cui l'industria si Ë sviluppata a causa dell'enorme corporazione Rekenber.\n\\n<TIPBOX>- Regno di Rune Midgard<INFO>4001</INFO></TIPBOX>\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	},
 	[4050] = {
-		Title = "Arunafeltz country",
+		Title = "Paese di Arunafeltz",
 		Search = 1,
 		Image = "",
 		Imgcoord = { Position = 5, Size = 100 },
 		Page = {
-			"It is a bell country of a genuine accord with the goddess Freyya. This Odin in Rune-Midguard is not in good shape because there is a friction in the past after the temple. Arunafeltz is a country that was built by religionally persecuted people. There is a huge temple Seth Raniel in the capital Rachel.\n\\n<TIPBOX>- ¿Ã¿¸ ∆‰¿Ã¡ˆ∑Œ<INFO>4001</INFO></TIPBOX>\n<TIPBOX>- More tips list<INFO>1000</INFO></TIPBOX>"
+			"» un paese bellico di un genuino accordo con la Dea Freyya. Per questo Odino in Rune-Midguard non Ë in buoni rapporti con questo territorio, perchÈ c'Ë stato un attrito passato dopo il tempio. Arunafeltz Ë un paese che Ë stato costruito da persone religiosamente perseguitate. C'Ë un enorme tempio Seth Raniel nella capitale Rachel.\n\\n<TIPBOX>- Regno di Rune Midgard<INFO>4001</INFO></TIPBOX>\n<TIPBOX>- Lista altri consigli<INFO>1000</INFO></TIPBOX>"
 		}
 	}
 }
