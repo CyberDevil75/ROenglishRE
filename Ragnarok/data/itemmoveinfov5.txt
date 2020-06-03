@@ -30,6 +30,20 @@
 5907	0	0	0	0	0	0	0	0	// Sea Captain Hat
 31260	0	0	0	0	0	0	0	0	// C Observer
 12622	0	0	0	0	0	0	0	0	// Reins Of Mount
+18971	0	0	0	0	0	0	0	0	// Old Rune Circlet [1]
+18972	0	0	0	0	0	0	0	0	// Old Mitra [1]
+18973	0	0	0	0	0	0	0	0	// Old Driver Band [1]
+18974	0	0	0	0	0	0	0	0	// Old Driver Band (Yellow) [1]
+18975	0	0	0	0	0	0	0	0	// Old Shadow Handicraft [1]
+18976	0	0	0	0	0	0	0	0	// Old Maestro Song's Hat [1]
+18977	0	0	0	0	0	0	0	0	// Old Midas Whisper [1]
+18978	0	0	0	0	0	0	0	0	// Old Magic Stone Hat [1]
+18979	0	0	0	0	0	0	0	0	// Old Blazing Soul [1]
+18980	0	0	0	0	0	0	0	0	// Old Wind Whisper [1]
+18981	0	0	0	0	0	0	0	0	// Old Dying Swan [1]
+18982	0	0	0	0	0	0	0	0	// Old Bone Circlet [1]
+18983	0	0	0	0	0	0	0	0	// Old Casket of Protection [1]
+18984	0	0	0	0	0	0	0	0	// Old Camouflage Bunny Hood [1]
 // ItemID | Drop | Trade | Storage | Cart | SelltoNPC | Mail | Auction | Guild Storage
 // This format does not accept blank lines. Be careful.
 2634	1	1	1	1	1	1	1	1	// ½Å¶û°áÈ¥¹ÝÁö
