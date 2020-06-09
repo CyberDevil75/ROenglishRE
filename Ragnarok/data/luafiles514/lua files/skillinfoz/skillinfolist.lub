@@ -1,7 +1,226 @@
 SKILL_INFO_LIST = {
+	[SKID.NPC_GROUNDDRIVE] = {
+		"NPC_GROUNDDRIVE",
+		SkillName = "Ground Drive",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 5, y = 5 },
+			[3] = { x = 5, y = 5 },
+			[4] = { x = 5, y = 5 },
+			[5] = { x = 5, y = 5 }
+		}
+	},
+	[SKID.NPC_RAINOFMETEOR] = {
+		"NPC_RAINOFMETEOR",
+		SkillName = "Rain of Meteor",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
+		SkillScale = {
+			[1] = { x = 3, y = 3 },
+			[2] = { x = 3, y = 3 },
+			[3] = { x = 5, y = 5 },
+			[4] = { x = 5, y = 5 },
+			[5] = { x = 7, y = 7 },
+			[6] = { x = 7, y = 7 },
+			[7] = { x = 9, y = 9 },
+			[8] = { x = 9, y = 9 },
+			[9] = { x = 11, y = 11 },
+			[10] = { x = 11, y = 11 }
+		}
+	}, 
+	[SKID.GD_CHARGESHOUT_FLAG] = {
+		"GD_CHARGESHOUT_FLAG",
+		SkillName = "Charge Shout Flag",
+		MaxLv = 1,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
+	[SKID.GD_CHARGESHOUT_BEATING] = {
+		"GD_CHARGESHOUT_BEATING",
+		SkillName = "Charge Shout Beating",
+		MaxLv = 1,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
+	[SKID.GD_EMERGENCY_MOVE] = {
+		"GD_EMERGENCY_MOVE",
+		SkillName = "Emergency Move",
+		MaxLv = 1,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
+	[SKID.NPC_WIDEBLEEDING2] = {
+		"NPC_WIDEBLEEDING2",
+		SkillName = "Demonic Mass Bleeding",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 29, y = 29 }
+		}
+	},
+	[SKID.NPC_WIDESILENCE2] = {
+		"NPC_WIDESILENCE2",
+		SkillName = "Demonic Mass Silence",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 29, y = 29 }
+		}
+	},
+	[SKID.NPC_WIDESTUN2] = {
+		"NPC_WIDESTUN2",
+		SkillName = "Demonic Mass Stun",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 29, y = 29 }
+		}
+	},
+	[SKID.NPC_WIDESTONE2] = {
+		"NPC_WIDESTONE2";
+		SkillName = "Demonic Mass Stone",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 }, 
+			[2] = { x = 11, y = 11 }, 
+			[3] = { x = 17, y = 17 }, 
+			[4] = { x = 23, y = 23 }, 
+			[5] = { x = 29, y = 29 }
+		}
+	},
+	[SKID.NPC_WIDESLEEP2] = {
+		"NPC_WIDESLEEP2";
+		SkillName = "Demonic Mass Sleep",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 }, 
+			[2] = { x = 11, y = 11 }, 
+			[3] = { x = 17, y = 17 }, 
+			[4] = { x = 23, y = 23 }, 
+			[5] = { x = 29, y = 29 }
+		}
+	},
+	[SKID.NPC_WIDECURSE2] = {
+		"NPC_WIDECURSE2";
+		SkillName = "Demonic Mass Curse",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false, 
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 29, y = 29 }
+		}
+	},
+	[SKID.NPC_WIDECONFUSE2] = {
+		"NPC_WIDECONFUSE2";
+		SkillName = "Demonic Mass Confusion",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 29, y = 29 }
+		}
+	},
+	[SKID.NPC_WIDEFREEZE2] = {
+		"NPC_WIDEFREEZE2";
+		SkillName = "Demonic Mass Freezing",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 29, y = 29}
+		}
+	},
+	[SKID.NPC_EVILLAND2] = {
+		"NPC_EVILLAND2";
+		SkillName = "Demonic Evil Land",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		SkillScale = {
+			[1] = { x = 11, y = 11 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 11, y = 11 },
+			[4] = { x = 11, y = 11 },
+			[5] = { x = 11, y = 11 },
+			[6] = { x = 13, y = 13 },
+			[7] = { x = 15, y = 15 },
+			[8] = { x = 19, y = 19 },
+			[9] = { x = 23, y = 23 },
+			[10] = { x = 29, y = 29 }
+		}
+	},
+	[SKID.NPC_HELLJUDGEMENT2] = {
+		"NPC_HELLJUDGEMENT2";
+		SkillName = "Demonic Hell Judgement",
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 29, y = 29 },
+			[2] = { x = 29, y = 29 },
+			[3] = { x = 29, y = 29 },
+			[4] = { x = 29, y = 29 },
+			[5] = { x = 29, y = 29 },
+			[6] = { x = 29, y = 29 },
+			[7] = { x = 29, y = 29 },
+			[8] = { x = 29, y = 29 },
+			[9] = { x = 29, y = 29 },
+			[10] = { x = 29, y = 29 }
+		}
+	},
 	[SKID.NPC_ALL_STAT_DOWN] = {
 		"NPC_ALL_STAT_DOWN",
-		SkillName = "¿Ã½ºÅÝ ´Ù¿î",
+		SkillName = "All Stats Down",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -9,7 +228,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_GRADUAL_GRAVITY] = {
 		"NPC_GRADUAL_GRAVITY",
-		SkillName = "Áß·Â Áõ°¡",
+		SkillName = "Gravity Raise",
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
@@ -17,7 +236,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_DAMAGE_HEAL] = {
 		"NPC_DAMAGE_HEAL",
-		SkillName = "È¸º¹ ÀüÈ¯",
+		SkillName = "Recovery Switch",
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
@@ -25,7 +244,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_IMMUNE_PROPERTY] = {
 		"NPC_IMMUNE_PROPERTY",
-		SkillName = "ÀÌ¹Ã ¿¤¸®¸àÅ»",
+		SkillName = "Elemental Immunity",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -33,7 +252,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_MOVE_COORDINATE] = {
 		"NPC_MOVE_COORDINATE",
-		SkillName = "À§Ä¡ º¯°æ",
+		SkillName = "Change Location",
 		MaxLv = 1,
 		SpAmount = { 0 },
 		bSeperateLv = false,
@@ -41,7 +260,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_WIDELEASH] = {
 		"NPC_WIDELEASH",
-		SkillName = "±¤¿ª Á×À½ÀÇ ¼Õ¾Æ±Í",
+		SkillName = "Wide Grasp of Death",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -49,7 +268,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_LEASH] = {
 		"NPC_LEASH",
-		SkillName = "Á×À½ÀÇ ¼Õ¾Æ±Í",
+		SkillName = "Grasp of Death",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -57,7 +276,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_DEFENDER] = {
 		"NPC_DEFENDER",
-		SkillName = "µðÆæ´õ",
+		SkillName = "Defender",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -65,7 +284,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.NPC_ARROWSTORM] = {
 		"NPC_ARROWSTORM",
-		SkillName = "¾Ö·Î¿ì ½ºÅè",
+		SkillName = "Arrow Storm",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -468,7 +687,9 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0 },
 		bSeperateLv = false,
 		AttackRange = { 1 },
-		SkillScale = { [1] = { x = 15, y = 15 } }
+		SkillScale = {
+			[1] = { x = 15, y = 15 }
+		}
 	},
 	[SKID.NPC_WIDESIGHT] = {
 		"NPC_WIDESIGHT",
@@ -477,7 +698,9 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0 },
 		bSeperateLv = false,
 		AttackRange = { 1 },
-		SkillScale = { [1] = { x = 11, y = 11 } }
+		SkillScale = { 
+			[1] = { x = 11, y = 11 }
+		}
 	},
 	[SKID.NPC_WIDESUCK] = {
 		"NPC_WIDESUCK",
@@ -486,7 +709,9 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0 },
 		bSeperateLv = false,
 		AttackRange = { 1 },
-		SkillScale = { [1] = { x = 27, y = 27 } }
+		SkillScale = { 
+			[1] = { x = 27, y = 27 }
+		}
 	},
 	[SKID.NPC_STORMGUST2] = {
 		"NPC_STORMGUST2",
@@ -495,7 +720,11 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9 },
-		SkillScale = { [1] = { x = 11, y = 11 }, [2] = { x = 11, y = 11 }, [3] = { x = 11, y = 11 } }
+		SkillScale = { 
+			[1] = { x = 11, y = 11 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 11, y = 11 }
+		}
 	},
 	[SKID.NPC_FIRESTORM] = {
 		"NPC_FIRESTORM",
@@ -504,7 +733,11 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1 },
-		SkillScale = { [1] = { x = 7, y = 7 }, [2] = { x = 7, y = 7 }, [3] = { x = 7, y = 7 } }
+		SkillScale = { 
+			[1] = { x = 7, y = 7 }, 
+			[2] = { x = 7, y = 7 }, 
+			[3] = { x = 7, y = 7 }
+		}
 	},
 	[SKID.NPC_DRAGONBREATH] = {
 		"NPC_DRAGONBREATH",
@@ -766,7 +999,7 @@ SKILL_INFO_LIST = {
 		"HW_NAPALMVULCAN",
 		SkillName = "Napalm Vulcan",
 		MaxLv = 5,
-		SpAmount = { 10, 25, 40, 55, 70 },
+		SpAmount = { 30, 40, 50, 60, 70 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -1044,7 +1277,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_FEEL] = {
 		"SG_FEEL",
-		SkillName = "Solar, Lunar and Stellar Perception",
+		SkillName = "Feeling of Sun Moon Star",
 		MaxLv = 3,
 		SpAmount = { 100, 100, 100 },
 		bSeperateLv = true,
@@ -1052,7 +1285,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_SUN_WARM] = {
 		"SG_SUN_WARM",
-		SkillName = "Solar Heat",
+		SkillName = "Warmth of The Sun",
 		MaxLv = 3,
 		SpAmount = { 20, 20, 20 },
 		bSeperateLv = false,
@@ -1063,7 +1296,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_MOON_WARM] = {
 		"SG_MOON_WARM",
-		SkillName = "Lunar Heat",
+		SkillName = "Warmth of The Moon",
 		MaxLv = 3,
 		SpAmount = { 20, 20, 20 },
 		bSeperateLv = false,
@@ -1074,7 +1307,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_STAR_WARM] = {
 		"SG_STAR_WARM",
-		SkillName = "Stellar Heat",
+		SkillName = "Warmth of The Star",
 		MaxLv = 3,
 		SpAmount = { 10, 10, 10 },
 		bSeperateLv = false,
@@ -1085,7 +1318,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_SUN_COMFORT] = {
 		"SG_SUN_COMFORT",
-		SkillName = "Solar Protection",
+		SkillName = "Comfort of The Sun",
 		MaxLv = 4,
 		SpAmount = { 70, 60, 50, 40 },
 		bSeperateLv = false,
@@ -1107,7 +1340,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_MOON_COMFORT] = {
 		"SG_MOON_COMFORT",
-		SkillName = "Lunar Protection",
+		SkillName = "Comfort of The Moon",
 		MaxLv = 4,
 		SpAmount = { 70, 60, 50, 40 },
 		bSeperateLv = false,
@@ -1118,7 +1351,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_STAR_COMFORT] = {
 		"SG_STAR_COMFORT",
-		SkillName = "Stellar Protection",
+		SkillName = "Comfort of The Star",
 		MaxLv = 4,
 		SpAmount = { 70, 60, 50, 40 },
 		bSeperateLv = false,
@@ -1129,7 +1362,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_HATE] = {
 		"SG_HATE",
-		SkillName = "Solar, Lunar and Stellar Opposition",
+		SkillName = "Hatred of Sun Moon Star",
 		MaxLv = 3,
 		SpAmount = { 100, 100, 100 },
 		bSeperateLv = true,
@@ -1137,7 +1370,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_SUN_ANGER] = {
 		"SG_SUN_ANGER",
-		SkillName = "Solar Wrath",
+		SkillName = "Anger of The Sun",
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
@@ -1148,7 +1381,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_MOON_ANGER] = {
 		"SG_MOON_ANGER",
-		SkillName = "Lunar Wrath",
+		SkillName = "Anger of The Moon",
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
@@ -1159,7 +1392,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_STAR_ANGER] = {
 		"SG_STAR_ANGER",
-		SkillName = "Stellar Wrath",
+		SkillName = "Anger of The Star",
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
@@ -1170,7 +1403,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_SUN_BLESS] = {
 		"SG_SUN_BLESS",
-		SkillName = "Solar Blessings",
+		SkillName = "Blessing of The Sun",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -1182,7 +1415,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_MOON_BLESS] = {
 		"SG_MOON_BLESS",
-		SkillName = "Lunar Blessings",
+		SkillName = "Blessing of The Moon",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -1194,7 +1427,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_STAR_BLESS] = {
 		"SG_STAR_BLESS",
-		SkillName = "Stellar Blessings",
+		SkillName = "Blessing of The Star",
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -1206,7 +1439,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_DEVIL] = {
 		"SG_DEVIL",
-		SkillName = "Solar, Lunar and Stellar Shadow",
+		SkillName = "Demon of Sun Moon Star",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -1222,7 +1455,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_FRIEND] = {
 		"SG_FRIEND",
-		SkillName = "Solar, Lunar and Stellar Team-Up",
+		SkillName = "Friend of Sun Moon Star",
 		MaxLv = 3,
 		SpAmount = { 0, 0, 0 },
 		bSeperateLv = false,
@@ -1230,7 +1463,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_KNOWLEDGE] = {
 		"SG_KNOWLEDGE",
-		SkillName = "Solar, Lunar and Stellar Courier",
+		SkillName = "Knowledge of Sun Moon Star",
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
@@ -1238,7 +1471,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SG_FUSION] = {
 		"SG_FUSION",
-		SkillName = "Solar, Lunar and Stellar Union",
+		SkillName = "Fusion of Sun Moon Star",
 		MaxLv = 1,
 		Type = "Soul",
 		SpAmount = { 100 },
@@ -1654,7 +1887,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 28, 31, 34, 37, 40 },
 		bSeperateLv = true,
-		AttackRange = { 4, 4, 4, 4, 4 },
+		AttackRange = { 7, 7, 9, 9, 11 },
 		_NeedSkillList = {
 			{ SKID.CR_SHIELDBOOMERANG, 5 }
 		}
@@ -1698,7 +1931,7 @@ SKILL_INFO_LIST = {
 		"HW_GRAVITATION",
 		SkillName = "Gravitational Field",
 		MaxLv = 5,
-		SpAmount = { 20, 40, 60, 80, 100 },
+		SpAmount = { 60, 70, 80, 90, 100 },
 		bSeperateLv = true,
 		AttackRange = { 18, 18, 18, 18, 18 },
 		_NeedSkillList = {
@@ -1731,13 +1964,13 @@ SKILL_INFO_LIST = {
 			{ SKID.BS_OVERTHRUST, 5 }
 		}
 	},
-	[SKID.CG_LONGINGFREEDOM] = {
-		"CG_LONGINGFREEDOM",
-		SkillName = "Longing for Freedom",
-		MaxLv = 5,
-		SpAmount = { 15, 15, 15, 15, 15 },
+	[SKID.CG_SPECIALSINGER] = {
+		"SKID_CG_SPECIALSINGER",
+		SkillName = "Skillful Professional Musician",
+		MaxLv = 1,
+		SpAmount = { 1 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 },
+		AttackRange = { 1 },
 		NeedSkillList = {
 			[JOBID.JT_BARD_H] = {
 				{ SKID.CG_MARIONETTE, 1 },
@@ -1831,7 +2064,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.KN_ONEHAND] = {
 		"KN_ONEHAND",
-		SkillName = "One Hand Quicken",
+		SkillName = "One-Hand Quicken",
 		MaxLv = 1,
 		Type = "Soul",
 		SpAmount = { 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 },
@@ -1900,10 +2133,10 @@ SKILL_INFO_LIST = {
 	[SKID.RK_ENCHANTBLADE] = {
 		"RK_ENCHANTBLADE",
 		SkillName = "Enchant Blade",
-		MaxLv = 5,
-		SpAmount = { 40, 45, 50, 55, 60 },
+		MaxLv = 10,
+		SpAmount = { 34, 38, 42, 46, 50, 54, 58, 62, 66, 70 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.RK_RUNEMASTERY, 2 }
 		}
@@ -1912,7 +2145,7 @@ SKILL_INFO_LIST = {
 		"RK_WINDCUTTER",
 		SkillName = "Wind Cutter",
 		MaxLv = 5,
-		SpAmount = { 20, 24, 28, 32, 36 },
+		SpAmount = { 34, 38, 42, 46, 50 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -1968,10 +2201,10 @@ SKILL_INFO_LIST = {
 	[SKID.GC_COUNTERSLASH] = {
 		"GC_COUNTERSLASH",
 		SkillName = "Counter Slash",
-		MaxLv = 5,
-		SpAmount = { 5, 8, 11, 14, 17 },
+		MaxLv = 10,
+		SpAmount = { 5, 8, 11, 14, 17, 19, 21, 23, 25, 27 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.GC_WEAPONBLOCKING, 1 }
 		}
@@ -2040,7 +2273,7 @@ SKILL_INFO_LIST = {
 		"NJ_SYURIKEN",
 		SkillName = "Throw Shuriken",
 		MaxLv = 10,
-		SpAmount = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 },
+		SpAmount = { 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 },
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -2051,7 +2284,7 @@ SKILL_INFO_LIST = {
 		"NJ_KUNAI",
 		SkillName = "Throw Kunai",
 		MaxLv = 5,
-		SpAmount = { 30, 25, 20, 15, 10 },
+		SpAmount = { 10, 10, 10, 10, 10 },
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -2097,7 +2330,7 @@ SKILL_INFO_LIST = {
 		"NJ_KASUMIKIRI",
 		SkillName = "Haze Slasher",
 		MaxLv = 10,
-		SpAmount = { 15, 15, 15, 15, 15, 15, 15, 15, 15, 15 },
+		SpAmount = { 8, 8, 8, 8, 8, 8, 8, 8, 8, 8 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -2108,7 +2341,7 @@ SKILL_INFO_LIST = {
 		"NJ_SHADOWJUMP",
 		SkillName = "Shadow Leap",
 		MaxLv = 5,
-		SpAmount = { 10, 10, 10, 10, 10 },
+		SpAmount = { 10, 11, 12, 13, 14 },
 		bSeperateLv = false,
 		AttackRange = { 6, 8, 10, 12, 14 },
 		_NeedSkillList = {
@@ -3414,7 +3647,14 @@ SKILL_INFO_LIST = {
 		MaxLv = 5,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 29, y = 29 }
+		}
 	},
 	[SKID.NPC_CRITICALWOUND] = {
 		"NPC_CRITICALWOUND",
@@ -3476,7 +3716,19 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 27, y = 27 },
+			[6] = { x = 27, y = 27 },
+			[7] = { x = 27, y = 27 },
+			[8] = { x = 27, y = 27 },
+			[9] = { x = 27, y = 27 },
+			[10] = { x = 27, y = 27 }
+		}
 	},
 	[SKID.NPC_WIDESOULDRAIN] = {
 		"NPC_WIDESOULDRAIN",
@@ -3484,7 +3736,19 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		SkillScale = {
+			[1] = { x = 5, y = 5 },
+			[2] = { x = 11, y = 11 },
+			[3] = { x = 17, y = 17 },
+			[4] = { x = 23, y = 23 },
+			[5] = { x = 27, y = 27 },
+			[6] = { x = 27, y = 27 },
+			[7] = { x = 27, y = 27 },
+			[8] = { x = 27, y = 27 },
+			[9] = { x = 27, y = 27 },
+			[10] = { x = 27, y = 27 }
+		}
 	},
 	[SKID.ALL_INCCARRY] = {
 		"ALL_INCCARRY",
@@ -3825,7 +4089,7 @@ SKILL_INFO_LIST = {
 		"KN_BRANDISHSPEAR",
 		SkillName = "Brandish Spear",
 		MaxLv = 10,
-		SpAmount = { 12, 12, 12, 12, 12, 12, 12, 12, 12, 12 },
+		SpAmount = { 24, 24, 24, 24, 24, 24, 24, 24, 24, 24 },
 		bSeperateLv = false,
 		AttackRange = { 2, 2, 2, 2, 2, 2, 2, 2, 2, 2 },
 		_NeedSkillList = {
@@ -3904,6 +4168,17 @@ SKILL_INFO_LIST = {
 			}
 		}
 	},
+	[SKID.KN_RIDING] = {
+		"KN_RIDING",
+		SkillName = "Riding",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {
+			{ SKID.SM_ENDURE, 1 }
+		}
+	},
 	[SKID.KN_CHARGEATK] = {
 		"KN_CHARGEATK",
 		SkillName = "Charge Attack",
@@ -3958,17 +4233,6 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 1 }
 	},
-	[SKID.KN_RIDING] = {
-		"KN_RIDING",
-		SkillName = "Riding",
-		MaxLv = 1,
-		SpAmount = { 0 },
-		bSeperateLv = false,
-		AttackRange = { 1 },
-		_NeedSkillList = {
-			{ SKID.SM_ENDURE, 1 }
-		}
-	},
 	[SKID.SA_ELEMENTWATER] = {
 		"SA_ELEMENTWATER",
 		SkillName = "Elemental Change (Water)",
@@ -4001,7 +4265,7 @@ SKILL_INFO_LIST = {
 		SkillName = "Charming Wink",
 		MaxLv = 1,
 		Type = "Quest",
-		SpAmount = { 40 },
+		SpAmount = { 20 },
 		bSeperateLv = false,
 		AttackRange = { 9 }
 	},
@@ -4349,10 +4613,10 @@ SKILL_INFO_LIST = {
 	[SKID.NC_POWERSWING] = {
 		"NC_POWERSWING",
 		SkillName = "Power Swing",
-		MaxLv = 5,
-		SpAmount = { 20, 22, 24, 26, 28 },
+		MaxLv = 10,
+		SpAmount = { 20, 22, 24, 26, 28, 30, 32, 34, 36, 38 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.NC_AXEBOOMERANG, 3 }
 		}
@@ -4480,17 +4744,6 @@ SKILL_INFO_LIST = {
 			{ SKID.LG_REFLECTDAMAGE, 3 }
 		}
 	},
-	[SKID.SR_SKYNETBLOW] = {
-		"SR_SKYNETBLOW",
-		SkillName = "Sky Net Blow",
-		MaxLv = 5,
-		SpAmount = { 8, 9, 10, 11, 12 },
-		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1 },
-		_NeedSkillList = {
-			{ SKID.SR_DRAGONCOMBO, 3 }
-		}
-	},
 	[SKID.PR_KYRIE] = {
 		"PR_KYRIE",
 		SkillName = "Kyrie Eleison",
@@ -4500,40 +4753,6 @@ SKILL_INFO_LIST = {
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
 			{ SKID.AL_ANGELUS, 2 }
-		}
-	},
-	[SKID.SR_LIGHTNINGWALK] = {
-		"SR_LIGHTNINGWALK",
-		SkillName = "Lightning Walk",
-		MaxLv = 5,
-		SpAmount = { 40, 40, 40, 40, 40 },
-		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1 },
-		_NeedSkillList = {
-			{ SKID.SR_WINDMILL, 1 }
-		}
-	},
-	[SKID.SR_GATEOFHELL] = {
-		"SR_GATEOFHELL",
-		SkillName = "Gate of Hell",
-		MaxLv = 10,
-		SpAmount = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
-		bSeperateLv = true,
-		AttackRange = { 1, 2, 3, 3, 4, 4, 5, 5, 6, 7 },
-		_NeedSkillList = {
-			{ SKID.SR_TIGERCANNON, 5 },
-			{ SKID.SR_RAISINGDRAGON, 5 }
-		}
-	},
-	[SKID.SR_GENTLETOUCH_CHANGE] = {
-		"SR_GENTLETOUCH_CHANGE",
-		SkillName = "Gentle Touch - Change",
-		MaxLv = 5,
-		SpAmount = { 40, 50, 60, 70, 80 },
-		bSeperateLv = true,
-		AttackRange = { 2, 2, 2, 2, 2 },
-		_NeedSkillList = {
-			{ SKID.SR_GENTLETOUCH_CURE, 4 }
 		}
 	},
 	[SKID.WA_SYMPHONY_OF_LOVER] = {
@@ -4967,7 +5186,7 @@ SKILL_INFO_LIST = {
 		"WZ_EARTHSPIKE",
 		SkillName = "Earth Spike",
 		MaxLv = 5,
-		SpAmount = { 12, 14, 16, 18, 20 },
+		SpAmount = { 14, 18, 22, 26, 30 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -5504,10 +5723,10 @@ SKILL_INFO_LIST = {
 	[SKID.RK_SONICWAVE] = {
 		"RK_SONICWAVE",
 		SkillName = "Sonic Wave",
-		MaxLv = 5,
-		SpAmount = { 30, 35, 40, 45, 50 },
+		MaxLv = 10,
+		SpAmount = { 33, 36, 39, 42, 45, 48, 51, 54, 57, 60 },
 		bSeperateLv = true,
-		AttackRange = { 7, 8, 9, 10, 11 },
+		AttackRange = { 7, 7, 8, 8, 9, 9, 10, 10, 11, 11 },
 		_NeedSkillList = {
 			{ SKID.RK_ENCHANTBLADE, 3 }
 		}
@@ -5518,7 +5737,7 @@ SKILL_INFO_LIST = {
 		MaxLv = 10,
 		SpAmount = { 60, 60, 60, 60, 60, 60, 60, 60, 60, 60 },
 		bSeperateLv = true,
-		AttackRange = { 5, 5, 5, 5, 5, 5, 5, 5, 5, 5 },
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
 		_NeedSkillList = {
 			{ SKID.RK_PHANTOMTHRUST, 3 }
 		}
@@ -5602,9 +5821,9 @@ SKILL_INFO_LIST = {
 		"GC_CROSSIMPACT",
 		SkillName = "Cross Impact",
 		MaxLv = 5,
-		SpAmount = { 25, 25, 25, 25, 25 },
+		SpAmount = { 40, 40, 40, 40, 40 },
 		bSeperateLv = false,
-		AttackRange = { 3, 3, 3, 3, 3 },
+		AttackRange = { 7, 7, 7, 7, 7 },
 		_NeedSkillList = {
 			{ SKID.AS_SONICBLOW, 10 }
 		}
@@ -5974,10 +6193,10 @@ SKILL_INFO_LIST = {
 	[SKID.WL_FREEZE_SP] = {
 		"WL_FREEZE_SP",
 		SkillName = "Freezing Spell",
-		MaxLv = 5,
-		SpAmount = { 0, 0, 0, 0, 0 },
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 }
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
 	},
 	[SKID.AS_VENOMDUST] = {
 		"AS_VENOMDUST",
@@ -6012,10 +6231,10 @@ SKILL_INFO_LIST = {
 	[SKID.RA_RESEARCHTRAP] = {
 		"RA_RESEARCHTRAP",
 		SkillName = "Trap Research",
-		MaxLv = 5,
-		SpAmount = { 0, 0, 0, 0, 0 },
+		MaxLv = 10,
+		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.HT_CLAYMORETRAP, 1 },
 			{ SKID.HT_REMOVETRAP, 1 }
@@ -6156,10 +6375,10 @@ SKILL_INFO_LIST = {
 	[SKID.SC_FEINTBOMB] = {
 		"SC_FEINTBOMB",
 		SkillName = "Feint Bomb",
-		MaxLv = 3,
-		SpAmount = { 24, 28, 32 },
+		MaxLv = 10,
+		SpAmount = { 24, 28, 32, 36, 40, 44, 48, 52, 56, 60 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SC_DIMENSIONDOOR, 3 }
 		}
@@ -6218,18 +6437,6 @@ SKILL_INFO_LIST = {
 			{ SKID.LG_BANDING, 3 }
 		}
 	},
-	[SKID.SR_EARTHSHAKER] = {
-		"SR_EARTHSHAKER",
-		SkillName = "Earth Shaker",
-		MaxLv = 5,
-		SpAmount = { 36, 40, 44, 48, 52 },
-		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1 },
-		_NeedSkillList = {
-			{ SKID.SR_DRAGONCOMBO, 1 },
-			{ SKID.SR_CURSEDCIRCLE, 1 }
-		}
-	},
 	[SKID.SM_AUTOBERSERK] = {
 		"SM_AUTOBERSERK",
 		SkillName = "Auto Berserk",
@@ -6238,41 +6445,6 @@ SKILL_INFO_LIST = {
 		SpAmount = { 1 },
 		bSeperateLv = false,
 		AttackRange = { 1 }
-	},
-	[SKID.SR_KNUCKLEARROW] = {
-		"SR_KNUCKLEARROW",
-		SkillName = "Knuckle Arrow",
-		MaxLv = 5,
-		SpAmount = { 10, 15, 20, 25, 30 },
-		bSeperateLv = false,
-		AttackRange = { 7, 8, 9, 10, 11 },
-		_NeedSkillList = {
-			{ SKID.SR_LIGHTNINGWALK, 3 },
-			{ SKID.SR_RAMPAGEBLASTER, 3 }
-		}
-	},
-	[SKID.SR_ASSIMILATEPOWER] = {
-		"SR_ASSIMILATEPOWER",
-		SkillName = "Power Absorb",
-		MaxLv = 1,
-		SpAmount = { 10 },
-		bSeperateLv = false,
-		AttackRange = { 1 },
-		_NeedSkillList = {
-			{ SKID.MO_ABSORBSPIRITS, 1 },
-			{ SKID.SR_POWERVELOCITY, 1 }
-		}
-	},
-	[SKID.SR_GENTLETOUCH_QUIET] = {
-		"SR_GENTLETOUCH_QUIET",
-		SkillName = "Gentle Touch Silence",
-		MaxLv = 5,
-		SpAmount = { 20, 25, 30, 35, 40 },
-		bSeperateLv = true,
-		AttackRange = { 2, 2, 2, 2, 2 },
-		_NeedSkillList = {
-			{ SKID.SR_POWERVELOCITY, 1 }
-		}
 	},
 	[SKID.AC_MAKINGARROW] = {
 		"AC_MAKINGARROW",
@@ -6747,7 +6919,7 @@ SKILL_INFO_LIST = {
 		"RG_RAID",
 		SkillName = "Raid",
 		MaxLv = 5,
-		SpAmount = { 20, 20, 20, 20, 20 },
+		SpAmount = { 15, 15, 15, 15, 15 },
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -6925,17 +7097,6 @@ SKILL_INFO_LIST = {
 			{ SKID.RG_INTIMIDATE, 5 }
 		}
 	},
-	[SKID.SR_DRAGONCOMBO] = {
-		"SR_DRAGONCOMBO",
-		SkillName = "Dragon Combo",
-		MaxLv = 10,
-		SpAmount = { 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 },
-		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
-		_NeedSkillList = {
-			{ SKID.MO_TRIPLEATTACK, 5 }
-		}
-	},
 	[SKID.SC_STRIPACCESSARY] = {
 		"SC_STRIPACCESSARY",
 		SkillName = "Strip Accessory",
@@ -7103,10 +7264,10 @@ SKILL_INFO_LIST = {
 	[SKID.LG_SHIELDPRESS] = {
 		"LG_SHIELDPRESS",
 		SkillName = "Shield Press",
-		MaxLv = 5,
-		SpAmount = { 10, 12, 14, 16, 18 },
+		MaxLv = 10,
+		SpAmount = { 10, 12, 14, 16, 18, 20, 22, 24, 26, 28 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.CR_SHIELDCHARGE, 3 }
 		}
@@ -7552,40 +7713,6 @@ SKILL_INFO_LIST = {
 			{ SKID.AM_REST, 1 }
 		}
 	},
-	[SKID.SR_RIDEINLIGHTNING] = {
-		"SR_RIDEINLIGHTNING",
-		SkillName = "Ride in Lightning",
-		MaxLv = 5,
-		SpAmount = { 40, 50, 60, 70, 80 },
-		bSeperateLv = true,
-		AttackRange = { 11, 11, 11, 11, 11 },
-		_NeedSkillList = {
-			{ SKID.MO_FINGEROFFENSIVE, 3 }
-		}
-	},
-	[SKID.SR_HOWLINGOFLION] = {
-		"SR_HOWLINGOFLION",
-		SkillName = "Howling of Lion",
-		MaxLv = 5,
-		SpAmount = { 80, 90, 100, 110, 120 },
-		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1 },
-		_NeedSkillList = {
-			{ SKID.SR_RIDEINLIGHTNING, 3 },
-			{ SKID.SR_ASSIMILATEPOWER, 1 }
-		}
-	},
-	[SKID.SR_TIGERCANNON] = {
-		"SR_TIGERCANNON",
-		SkillName = "Tiger Cannon",
-		MaxLv = 10,
-		SpAmount = { 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 },
-		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
-		_NeedSkillList = {
-			{ SKID.SR_FALLENEMPIRE, 3 }
-		}
-	},
 	[SKID.AM_REST] = {
 		"AM_REST",
 		SkillName = "Rest",
@@ -7687,17 +7814,6 @@ SKILL_INFO_LIST = {
 			{ SKID.GN_THORNS_TRAP, 3 }
 		}
 	},
-	[SKID.SR_CRESCENTELBOW] = {
-		"SR_CRESCENTELBOW",
-		SkillName = "Crescent Elbow",
-		MaxLv = 5,
-		SpAmount = { 80, 80, 80, 80, 80 },
-		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 },
-		_NeedSkillList = {
-			{ SKID.SR_SKYNETBLOW, 1 }
-		}
-	},
 	[SKID.GN_CARTBOOST] = {
 		"GN_CARTBOOST",
 		SkillName = "Cart Boost",
@@ -7734,10 +7850,10 @@ SKILL_INFO_LIST = {
 	[SKID.GN_CART_TORNADO] = {
 		"GN_CART_TORNADO",
 		SkillName = "Cart Tornado",
-		MaxLv = 5,
-		SpAmount = { 30, 30, 30, 30, 30 },
+		MaxLv = 10,
+		SpAmount = { 30, 30, 30, 30, 30, 30, 30, 30, 30, 30 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.GN_REMODELING_CART, 1 }
 		}
@@ -7983,29 +8099,6 @@ SKILL_INFO_LIST = {
 			{ SKID.SO_SUMMON_AQUA, 3 }
 		}
 	},
-	[SKID.SR_RAISINGDRAGON] = {
-		"SR_RAISINGDRAGON",
-		SkillName = "Rising Dragon",
-		MaxLv = 10,
-		SpAmount = { 120, 120, 120, 120, 120, 120, 120, 120, 120, 120 },
-		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
-		_NeedSkillList = {
-			{ SKID.SR_RAMPAGEBLASTER, 3 },
-			{ SKID.SR_GENTLETOUCH_ENERGYGAIN, 3 }
-		}
-	},
-	[SKID.SR_POWERVELOCITY] = {
-		"SR_POWERVELOCITY",
-		SkillName = "Power Implantation",
-		MaxLv = 1,
-		SpAmount = { 50 },
-		bSeperateLv = false,
-		AttackRange = { 3 },
-		_NeedSkillList = {
-			{ SKID.MO_CALLSPIRITS, 5 }
-		}
-	},
 	[SKID.CR_DEVOTION] = {
 		"CR_DEVOTION",
 		SkillName = "Devotion",
@@ -8178,10 +8271,10 @@ SKILL_INFO_LIST = {
 	[SKID.SO_VARETYR_SPEAR] = {
 		"SO_VARETYR_SPEAR",
 		SkillName = "Varetyr Spear",
-		MaxLv = 5,
-		SpAmount = { 55, 62, 69, 76, 83 },
+		MaxLv = 10,
+		SpAmount = { 65, 70, 75, 80, 85, 90, 95, 100, 105, 110 },
 		bSeperateLv = false,
-		AttackRange = { 9, 9, 9, 9, 9 },
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
 			{ SKID.SA_SEISMICWEAPON, 1 },
 			{ SKID.SA_VIOLENTGALE, 4 }
@@ -8241,17 +8334,6 @@ SKILL_INFO_LIST = {
 			{ SKID.MO_STEELBODY, 3 }
 		}
 	},
-	[SKID.SR_GENTLETOUCH_ENERGYGAIN] = {
-		"SR_GENTLETOUCH_ENERGYGAIN",
-		SkillName = "Gentle Touch-Energy Gain",
-		MaxLv = 5,
-		SpAmount = { 40, 50, 60, 70, 80 },
-		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1 },
-		_NeedSkillList = {
-			{ SKID.SR_GENTLETOUCH_QUIET, 3 }
-		}
-	},
 	[SKID.MO_DODGE] = {
 		"MO_DODGE",
 		SkillName = "Dodge",
@@ -8289,10 +8371,10 @@ SKILL_INFO_LIST = {
 	[SKID.SO_SPELLFIST] = {
 		"SO_SPELLFIST",
 		SkillName = "Spell Fist",
-		MaxLv = 5,
-		SpAmount = { 40, 44, 48, 52, 56 },
+		MaxLv = 10,
+		SpAmount = { 40, 44, 48, 52, 56, 60, 64, 68, 72, 76 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SA_AUTOSPELL, 4 }
 		}
@@ -8301,7 +8383,7 @@ SKILL_INFO_LIST = {
 		"MO_FINGEROFFENSIVE",
 		SkillName = "Finger Offensive",
 		MaxLv = 5,
-		SpAmount = { 10, 10, 10, 10, 10 },
+		SpAmount = { 12, 16, 20, 24, 28 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -8413,7 +8495,7 @@ SKILL_INFO_LIST = {
 		"MO_CHAINCOMBO",
 		SkillName = "Chain Combo",
 		MaxLv = 5,
-		SpAmount = { 11, 12, 13, 14, 15 },
+		SpAmount = { 5, 6, 7, 8, 9 },
 		bSeperateLv = true,
 		AttackRange = { 2, 2, 2, 2, 2 },
 		_NeedSkillList = {
@@ -8436,7 +8518,7 @@ SKILL_INFO_LIST = {
 		"MO_COMBOFINISH",
 		SkillName = "Combo Finish",
 		MaxLv = 5,
-		SpAmount = { 11, 12, 13, 14, 15 },
+		SpAmount = { 3, 4, 5, 6, 7 },
 		bSeperateLv = true,
 		AttackRange = { 2, 2, 2, 2, 2 },
 		_NeedSkillList = {
@@ -8549,10 +8631,10 @@ SKILL_INFO_LIST = {
 	[SKID.WL_TETRAVORTEX] = {
 		"WL_TETRAVORTEX",
 		SkillName = "Tetra Vortex",
-		MaxLv = 5,
-		SpAmount = { 120, 150, 180, 210, 240 },
+		MaxLv = 10,
+		SpAmount = { 120, 150, 180, 210, 240, 200, 240, 280, 320, 360 },
 		bSeperateLv = true,
-		AttackRange = { 11, 11, 11, 11, 11 },
+		AttackRange = { 11, 11, 11, 11, 11, 11, 11, 11, 11, 11 },
 		_NeedSkillList = {
 			{ SKID.WL_CHAINLIGHTNING, 5 },
 			{ SKID.WL_HELLINFERNO, 5 },
@@ -8841,10 +8923,10 @@ SKILL_INFO_LIST = {
 	[SKID.LG_RAYOFGENESIS] = {
 		"LG_RAYOFGENESIS",
 		SkillName = "Genesis Ray",
-		MaxLv = 5,
-		SpAmount = { 60, 65, 70, 75, 80 },
+		MaxLv = 10,
+		SpAmount = { 45, 50, 55, 60, 65, 70, 75, 80, 85, 90 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.CR_GRANDCROSS, 5 }
 		}
@@ -8857,17 +8939,6 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
 	},
-	[SKID.SR_FALLENEMPIRE] = {
-		"SR_FALLENEMPIRE",
-		SkillName = "Fallen Empire",
-		MaxLv = 5,
-		SpAmount = { 20, 30, 40, 50, 60 },
-		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 },
-		_NeedSkillList = {
-			{ SKID.SR_DRAGONCOMBO, 1 }
-		}
-	},
 	[SKID.SA_CLASSCHANGE] = {
 		"SA_CLASSCHANGE",
 		SkillName = "Class Change",
@@ -8876,17 +8947,6 @@ SKILL_INFO_LIST = {
 		bSeperateLv = false,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 }
 	},
-	[SKID.SR_WINDMILL] = {
-		"SR_WINDMILL",
-		SkillName = "Windmill",
-		MaxLv = 1,
-		SpAmount = { 45 },
-		bSeperateLv = false,
-		AttackRange = { 1 },
-		_NeedSkillList = {
-			{ SKID.SR_CURSEDCIRCLE, 1 }
-		}
-	},
 	[SKID.SA_SUMMONMONSTER] = {
 		"SA_SUMMONMONSTER",
 		SkillName = "Summon Monster",
@@ -8894,17 +8954,6 @@ SKILL_INFO_LIST = {
 		SpAmount = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 }
-	},
-	[SKID.SR_GENTLETOUCH_CURE] = {
-		"SR_GENTLETOUCH_CURE",
-		SkillName = "Gentle Touch-Cure",
-		MaxLv = 5,
-		SpAmount = { 40, 50, 60, 70, 80 },
-		bSeperateLv = false,
-		AttackRange = { 2, 2, 2, 2, 2 },
-		_NeedSkillList = {
-			{ SKID.SR_POWERVELOCITY, 1 }
-		}
 	},
 	[SKID.SA_REVERSEORCISH] = {
 		"SA_REVERSEORCISH",
@@ -9022,12 +9071,12 @@ SKILL_INFO_LIST = {
 	[SKID.WM_METALICSOUND] = {
 		"WM_METALICSOUND",
 		SkillName = "Metallic Sound",
-		MaxLv = 5,
-		SpAmount = { 64, 68, 72, 76, 80 },
+		MaxLv = 10,
+		SpAmount = { 62, 64, 66, 68, 70, 72, 74, 76, 78, 80 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9 },
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
-			{ SKID.WM_DOMINION_IMPULSE, 1 }
+			{ SKID.WM_REVERBERATION, 5 }
 		}
 	},
 	[SKID.SA_LEVELUP] = {
@@ -9104,7 +9153,7 @@ SKILL_INFO_LIST = {
 		"BD_ADAPTATION",
 		SkillName = "Adaptation to Circumstances",
 		MaxLv = 1,
-		SpAmount = { 1 },
+		SpAmount = { 10 },
 		bSeperateLv = false,
 		AttackRange = { 1 }
 	},
@@ -9130,22 +9179,11 @@ SKILL_INFO_LIST = {
 			{ SKID.BD_ADAPTATION, 1 }
 		}
 	},
-	[SKID.SR_GENTLETOUCH_REVITALIZE] = {
-		"SR_GENTLETOUCH_REVITALIZE",
-		SkillName = "Gentle Touch-Revitalize",
-		MaxLv = 5,
-		SpAmount = { 40, 50, 60, 70, 80 },
-		bSeperateLv = true,
-		AttackRange = { 2, 2, 2, 2, 2 },
-		_NeedSkillList = {
-			{ SKID.SR_GENTLETOUCH_CHANGE, 5 }
-		}
-	},
 	[SKID.BD_LULLABY] = {
 		"BD_LULLABY",
 		SkillName = "Lullaby",
 		MaxLv = 1,
-		SpAmount = { 20 },
+		SpAmount = { 40 },
 		bSeperateLv = false,
 		AttackRange = { 1 },
 		NeedSkillList = { [JOBID.JT_BARD] = {
@@ -9171,7 +9209,7 @@ SKILL_INFO_LIST = {
 		"BD_RICHMANKIM",
 		SkillName = "Mr. Kim A Rich Man",
 		MaxLv = 5,
-		SpAmount = { 20, 20, 20, 20, 20 },
+		SpAmount = { 62, 68, 74, 80, 86 },
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -9194,7 +9232,7 @@ SKILL_INFO_LIST = {
 		"BD_ETERNALCHAOS",
 		SkillName = "Eternal Chaos",
 		MaxLv = 1,
-		SpAmount = { 30 },
+		SpAmount = { 120 },
 		bSeperateLv = false,
 		AttackRange = { 1 },
 		_NeedSkillList = {
@@ -9216,7 +9254,7 @@ SKILL_INFO_LIST = {
 		"BD_DRUMBATTLEFIELD",
 		SkillName = "Drum of Battlefield",
 		MaxLv = 5,
-		SpAmount = { 38, 41, 44, 47, 50 },
+		SpAmount = { 50, 54, 58, 62, 66 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		NeedSkillList = {
@@ -9228,23 +9266,11 @@ SKILL_INFO_LIST = {
 			}
 		}
 	},
-	[SKID.SR_CURSEDCIRCLE] = {
-		"SR_CURSEDCIRCLE",
-		SkillName = "Cursed Circle",
-		MaxLv = 5,
-		SpAmount = { 40, 60, 80, 100, 120 },
-		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 },
-		_NeedSkillList = {
-			{ SKID.MO_BLADESTOP, 2 },
-			{ SKID.SR_GENTLETOUCH_QUIET, 2 }
-		}
-	},
 	[SKID.BD_RINGNIBELUNGEN] = {
 		"BD_RINGNIBELUNGEN",
 		SkillName = "The Ring of Nibelungen",
 		MaxLv = 5,
-		SpAmount = { 38, 41, 44, 47, 50 },
+		SpAmount = { 64, 60, 56, 52, 48 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -9254,10 +9280,10 @@ SKILL_INFO_LIST = {
 	[SKID.GN_SPORE_EXPLOSION] = {
 		"GN_SPORE_EXPLOSION",
 		SkillName = "Spore Explosion",
-		MaxLv = 5,
-		SpAmount = { 55, 60, 65, 70, 75 },
+		MaxLv = 10,
+		SpAmount = { 48, 52, 56, 60, 64, 68, 72, 76, 80, 84 },
 		bSeperateLv = true,
-		AttackRange = { 11, 11, 11, 11, 11 },
+		AttackRange = { 11, 11, 11, 11, 11, 11, 11, 11, 11, 11 },
 		_NeedSkillList = {
 			{ SKID.GN_S_PHARMACY, 4 }
 		}
@@ -9266,7 +9292,7 @@ SKILL_INFO_LIST = {
 		"BD_ROKISWEIL",
 		SkillName = "Loki's Wail",
 		MaxLv = 1,
-		SpAmount = { 15 },
+		SpAmount = { 180 },
 		bSeperateLv = false,
 		AttackRange = { 1 },
 		NeedSkillList = {
@@ -9278,22 +9304,11 @@ SKILL_INFO_LIST = {
 			}
 		}
 	},
-	[SKID.SR_RAMPAGEBLASTER] = {
-		"SR_RAMPAGEBLASTER",
-		SkillName = "Rampage Blaster",
-		MaxLv = 5,
-		SpAmount = { 150, 150, 150, 150, 150 },
-		bSeperateLv = false,
-		AttackRange = { 1, 1, 1, 1, 1 },
-		_NeedSkillList = {
-			{ SKID.SR_EARTHSHAKER, 2 }
-		}
-	},
 	[SKID.BD_INTOABYSS] = {
 		"BD_INTOABYSS",
 		SkillName = "Into the Abyss",
 		MaxLv = 1,
-		SpAmount = { 10 },
+		SpAmount = { 70 },
 		bSeperateLv = false,
 		AttackRange = { 1 },
 		_NeedSkillList = {
@@ -9312,7 +9327,7 @@ SKILL_INFO_LIST = {
 		"BD_SIEGFRIED",
 		SkillName = "Invulnerable Siegfried",
 		MaxLv = 5,
-		SpAmount = { 20, 20, 20, 20, 20 },
+		SpAmount = { 40, 44, 48, 52, 56 },
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		NeedSkillList = { [JOBID.JT_BARD] = {
@@ -9375,7 +9390,7 @@ SKILL_INFO_LIST = {
 		"BA_MUSICALSTRIKE",
 		SkillName = "Musical Strike",
 		MaxLv = 5,
-		SpAmount = { 1, 3, 5, 7, 9 },
+		SpAmount = { 12, 12, 12, 12, 12 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -9397,7 +9412,7 @@ SKILL_INFO_LIST = {
 		"BA_DISSONANCE",
 		SkillName = "Dissonance",
 		MaxLv = 5,
-		SpAmount = { 18, 21, 24, 27, 30 },
+		SpAmount = { 35, 38, 41, 44, 47 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -9439,7 +9454,7 @@ SKILL_INFO_LIST = {
 		"BA_WHISTLE",
 		SkillName = "Whistle",
 		MaxLv = 10,
-		SpAmount = { 24, 28, 32, 36, 40, 44, 48, 52, 56, 60 },
+		SpAmount = { 22, 24, 26, 28, 30, 32, 34, 36, 38, 40 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -9458,7 +9473,7 @@ SKILL_INFO_LIST = {
 		"BA_ASSASSINCROSS",
 		SkillName = "Assassin Cross of Sunset",
 		MaxLv = 10,
-		SpAmount = { 38, 41, 44, 47, 50, 53, 56, 59, 62, 65 },
+		SpAmount = { 40, 45, 50, 55, 60, 65, 70, 75, 80, 85 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -9480,7 +9495,7 @@ SKILL_INFO_LIST = {
 		"BA_POEMBRAGI",
 		SkillName = "Poem of Bragi",
 		MaxLv = 10,
-		SpAmount = { 40, 45, 50, 55, 60, 65, 70, 75, 80, 85 },
+		SpAmount = { 65, 70, 75, 80, 85, 90, 95, 100, 105, 110 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -9538,7 +9553,7 @@ SKILL_INFO_LIST = {
 		"DC_THROWARROW",
 		SkillName = "Throw Arrow",
 		MaxLv = 5,
-		SpAmount = { 1, 3, 5, 7, 9 },
+		SpAmount = { 12, 12, 12, 12, 12 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -9560,7 +9575,7 @@ SKILL_INFO_LIST = {
 		"DC_UGLYDANCE",
 		SkillName = "Ugly Dance",
 		MaxLv = 5,
-		SpAmount = { 23, 26, 29, 32, 35 },
+		SpAmount = { 35, 38, 41, 44, 47 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -9605,7 +9620,7 @@ SKILL_INFO_LIST = {
 		"DC_HUMMING",
 		SkillName = "Humming",
 		MaxLv = 10,
-		SpAmount = { 22, 24, 26, 28, 30, 32, 34, 36, 38, 40 },
+		SpAmount = { 33, 36, 39, 42, 45, 48, 51, 54, 57, 60 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -9622,9 +9637,9 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.DC_DONTFORGETME] = {
 		"DC_DONTFORGETME",
-		SkillName = "Forget Me Not",
+		SkillName = "Please Don't Forget Me",
 		MaxLv = 10,
-		SpAmount = { 28, 31, 34, 37, 40, 43, 46, 49, 52, 55 },
+		SpAmount = { 38, 41, 44, 47, 50, 53, 56, 59, 62, 65 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -9648,7 +9663,7 @@ SKILL_INFO_LIST = {
 		"DC_FORTUNEKISS",
 		SkillName = "Fortune's Kiss",
 		MaxLv = 10,
-		SpAmount = { 43, 46, 49, 52, 55, 58, 61, 64, 67, 70 },
+		SpAmount = { 40, 45, 50, 55, 60, 65, 70, 75, 80, 85 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -9671,7 +9686,7 @@ SKILL_INFO_LIST = {
 		"DC_SERVICEFORYOU",
 		SkillName = "Service For You",
 		MaxLv = 10,
-		SpAmount = { 40, 45, 50, 55, 60, 65, 70, 75, 80, 85 },
+		SpAmount = { 60, 63, 66, 69, 72, 75, 78, 81, 84, 87 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -9738,10 +9753,10 @@ SKILL_INFO_LIST = {
 	[SKID.SC_FATALMENACE] = {
 		"SC_FATALMENACE",
 		SkillName = "Fatal Menace",
-		MaxLv = 5,
-		SpAmount = { 40, 45, 50, 55, 60 },
+		MaxLv = 10,
+		SpAmount = { 10, 14, 18, 22, 26, 30, 34, 38, 42, 46 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.RG_INTIMIDATE, 5 }
 		}
@@ -9900,10 +9915,10 @@ SKILL_INFO_LIST = {
 	[SKID.NC_ARMSCANNON] = {
 		"NC_ARMSCANNON",
 		SkillName = "Arms Cannon",
-		MaxLv = 3,
-		SpAmount = { 30, 45, 60 },
+		MaxLv = 5,
+		SpAmount = { 40, 45, 50, 55, 60 },
 		bSeperateLv = true,
-		AttackRange = { 9, 11, 13 },
+		AttackRange = { 9, 9, 11, 11, 13 },
 		_NeedSkillList = {
 			{ SKID.NC_FLAMELAUNCHER, 2 },
 			{ SKID.NC_COLDSLOWER, 2 }
@@ -10023,7 +10038,7 @@ SKILL_INFO_LIST = {
 		"RA_AIMEDBOLT",
 		SkillName = "Aimed Bolt",
 		MaxLv = 10,
-		SpAmount = { 30, 32, 34, 36, 38, 40, 42, 44, 46, 48 },
+		SpAmount = { 40, 40, 40, 40, 40, 40, 40, 40, 40, 40 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -10370,7 +10385,7 @@ SKILL_INFO_LIST = {
 		"HP_BASILICA",
 		SkillName = "Basilica",
 		MaxLv = 5,
-		SpAmount = { 80, 90, 100, 110, 120 },
+		SpAmount = { 40, 50, 60, 70, 80 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -10453,7 +10468,7 @@ SKILL_INFO_LIST = {
 		"GC_DARKILLUSION",
 		SkillName = "Dark Illusion",
 		MaxLv = 5,
-		SpAmount = { 40, 40, 40, 40, 40 },
+		SpAmount = { 20, 25, 30, 35, 40 },
 		bSeperateLv = true,
 		AttackRange = { 5, 6, 7, 8, 9 },
 		_NeedSkillList = {
@@ -10730,7 +10745,7 @@ SKILL_INFO_LIST = {
 		"ASC_BREAKER",
 		SkillName = "Soul Destroyer",
 		MaxLv = 10,
-		SpAmount = { 20, 20, 20, 20, 20, 30, 30, 30, 30, 30 },
+		SpAmount = { 20, 20, 20, 20, 20, 20, 20, 20, 20, 20 },
 		bSeperateLv = true,
 		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
@@ -10845,10 +10860,10 @@ SKILL_INFO_LIST = {
 	[SKID.KO_JYUMONJIKIRI] = {
 		"KO_JYUMONJIKIRI",
 		SkillName = "Cross Slash",
-		MaxLv = 5,
-		SpAmount = { 10, 12, 14, 16, 18 },
+		MaxLv = 10,
+		SpAmount = { 10, 12, 14, 16, 18, 20, 22, 24, 26, 28 },
 		bSeperateLv = true,
-		AttackRange = { 3, 4, 5, 6, 7 },
+		AttackRange = { 4, 4, 4, 5, 5, 5, 6, 6, 6, 7 },
 		_NeedSkillList = {
 			{ SKID.KO_YAMIKUMO, 1 }
 		}
@@ -10900,10 +10915,10 @@ SKILL_INFO_LIST = {
 	[SKID.KO_HUUMARANKA] = {
 		"KO_HUUMARANKA",
 		SkillName = "Swirling Petal",
-		MaxLv = 5,
-		SpAmount = { 24, 28, 32, 36, 40 },
+		MaxLv = 10,
+		SpAmount = { 22, 24, 26, 28, 30, 32, 34, 36, 38, 40 },
 		bSeperateLv = true,
-		AttackRange = { 9, 10, 11, 12, 13 },
+		AttackRange = { 11, 11, 11, 11, 11, 11, 11, 11, 11, 11 },
 		_NeedSkillList = {
 			{ SKID.NJ_HUUMA, 5 }
 		}
@@ -11240,20 +11255,6 @@ SKILL_INFO_LIST = {
 		AttackRange = { 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SO_EL_CONTROL, 3 }
-		}
-	},
-	[SKID.SR_FLASHCOMBO] = {
-		"SR_FLASHCOMBO",
-		SkillName = "Flash Combo",
-		MaxLv = 5,
-		SpAmount = { 65, 65, 65, 65, 65 },
-		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1 },
-		_NeedSkillList = {
-			{ SKID.SR_DRAGONCOMBO, 3 },
-			{ SKID.SR_FALLENEMPIRE, 3 },
-			{ SKID.SR_SKYNETBLOW, 1 },
-			{ SKID.SR_TIGERCANNON, 1 }
 		}
 	},
 	[SKID.SC_ESCAPE] = {
@@ -12157,10 +12158,10 @@ SKILL_INFO_LIST = {
 	[SKID.RL_FIREDANCE] = {
 		"RL_FIREDANCE",
 		SkillName = "Fire Dance",
-		MaxLv = 5,
-		SpAmount = { 12, 14, 16, 18, 20 },
+		MaxLv = 10,
+		SpAmount = { 13, 16, 19, 22, 25, 28, 31, 34, 37, 40 },
 		bSeperateLv = true,
-		AttackRange = { 0, 0, 0, 0, 0 },
+		AttackRange = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		_NeedSkillList = {
 			{ SKID.GS_DESPERADO, 1 }
 		}
@@ -12201,10 +12202,10 @@ SKILL_INFO_LIST = {
 	[SKID.RL_HAMMER_OF_GOD] = {
 		"RL_HAMMER_OF_GOD",
 		SkillName = "Hammer of God",
-		MaxLv = 5,
-		SpAmount = { 35, 40, 45, 50, 55 },
+		MaxLv = 10,
+		SpAmount = { 37, 39, 41, 43, 45, 47, 49, 51, 53, 55 },
 		bSeperateLv = true,
-		AttackRange = { 7, 8, 9, 10, 11 },
+		AttackRange = { 11, 11, 11, 11, 11, 11, 11, 11, 11, 11 },
 		_NeedSkillList = {
 			{ SKID.RL_RICHS_COIN, 1 },
 			{ SKID.RL_AM_BLAST, 3 }
@@ -12213,10 +12214,10 @@ SKILL_INFO_LIST = {
 	[SKID.RL_R_TRIP] = {
 		"RL_R_TRIP",
 		SkillName = "Round Trip",
-		MaxLv = 5,
-		SpAmount = { 40, 45, 50, 55, 60 },
+		MaxLv = 10,
+		SpAmount = { 43, 46, 49, 52, 55, 58, 61, 64, 67, 70 },
 		bSeperateLv = true,
-		AttackRange = { 0, 0, 0, 0, 0 },
+		AttackRange = { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 },
 		_NeedSkillList = {
 			{ SKID.RL_FIRE_RAIN, 1 }
 		}
@@ -12235,10 +12236,10 @@ SKILL_INFO_LIST = {
 	[SKID.RL_BANISHING_BUSTER] = {
 		"RL_BANISHING_BUSTER",
 		SkillName = "Banishing Buster",
-		MaxLv = 5,
-		SpAmount = { 55, 60, 65, 70, 75 },
+		MaxLv = 10,
+		SpAmount = { 55, 57, 59, 61, 63, 65, 67, 69, 71, 73 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9 },
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
 			{ SKID.RL_S_STORM, 1 }
 		}
@@ -12269,10 +12270,10 @@ SKILL_INFO_LIST = {
 	[SKID.RL_D_TAIL] = {
 		"RL_D_TAIL",
 		SkillName = "Dragon Tail",
-		MaxLv = 5,
-		SpAmount = { 60, 70, 80, 90, 100 },
+		MaxLv = 10,
+		SpAmount = { 55, 60, 65, 70, 75, 80, 85, 90, 95, 100 },
 		bSeperateLv = true,
-		AttackRange = { 0, 0, 0, 0, 0 },
+		AttackRange = { 11, 11, 11, 11, 11, 11, 11, 11, 11, 11 },
 		_NeedSkillList = {
 			{ SKID.RL_H_MINE, 3 },
 			{ SKID.RL_C_MARKER, 1 }
@@ -12326,7 +12327,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_LUNARSTANCE] = {
 		"SJ_LUNARSTANCE",
-		SkillName = "Star Stance",
+		SkillName = "Lunar Stance",
 		MaxLv = 3,
 		SpAmount = { 10, 10, 10 },
 		bSeperateLv = true,
@@ -12338,8 +12339,8 @@ SKILL_INFO_LIST = {
 	[SKID.SJ_FULLMOONKICK] = {
 		"SJ_FULLMOONKICK",
 		SkillName = "Full Moon Kick",
-		MaxLv = 7,
-		SpAmount = { 30, 35, 40, 45, 50, 55, 60 },
+		MaxLv = 10,
+		SpAmount = { 30, 35, 40, 45, 50, 55, 60, 65, 70, 75 },
 		bSeperateLv = true,
 		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
@@ -12392,7 +12393,7 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_STAREMPEROR] = {
 		"SJ_STAREMPEROR",
-		SkillName = "Advent of the Star Emperor²",
+		SkillName = "Advent of the Star Emperor",
 		MaxLv = 5,
 		SpAmount = { 70, 75, 80, 85, 90 },
 		bSeperateLv = true,
@@ -12429,10 +12430,10 @@ SKILL_INFO_LIST = {
 	[SKID.SJ_FALLINGSTAR] = {
 		"SJ_FALLINGSTAR",
 		SkillName = "Falling Star",
-		MaxLv = 7,
-		SpAmount = { 40, 45, 50, 55, 60, 65, 70 },
+		MaxLv = 10,
+		SpAmount = { 40, 45, 50, 55, 60, 65, 70, 75, 80, 85 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SJ_FLASHKICK, 7 }
 		}
@@ -12520,10 +12521,10 @@ SKILL_INFO_LIST = {
 	[SKID.SJ_SOLARBURST] = {
 		"SJ_SOLARBURST",
 		SkillName = "Solar Burst",
-		MaxLv = 7,
-		SpAmount = { 34, 37, 40, 43, 46, 49, 52 },
+		MaxLv = 10,
+		SpAmount = { 34, 37, 40, 43, 46, 49, 52, 55, 58, 61 },
 		bSeperateLv = true,
-		AttackRange = { 1, 1, 1, 1, 1, 1, 1 },
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
 		_NeedSkillList = {
 			{ SKID.SJ_PROMINENCEKICK, 7 }
 		}
@@ -12586,10 +12587,10 @@ SKILL_INFO_LIST = {
 	[SKID.SP_CURSEEXPLOSION] = {
 		"SP_CURSEEXPLOSION",
 		SkillName = "Curse Explosion",
-		MaxLv = 5,
-		SpAmount = { 50, 55, 60, 65, 70 },
+		MaxLv = 10,
+		SpAmount = { 50, 55, 60, 65, 70, 75, 80, 85, 90, 95 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9 },
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
 			{ SKID.SP_SOULCURSE, 3 }
 		}
@@ -12608,10 +12609,10 @@ SKILL_INFO_LIST = {
 	[SKID.SP_SPA] = {
 		"SP_SPA",
 		SkillName = "Espa",
-		MaxLv = 5,
-		SpAmount = { 52, 56, 60, 64, 68 },
+		MaxLv = 10,
+		SpAmount = { 52, 56, 60, 64, 68, 72, 76, 80, 84, 88 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9 },
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
 			{ SKID.SP_SHA, 1 }
 		}
@@ -12630,10 +12631,10 @@ SKILL_INFO_LIST = {
 	[SKID.SP_SWHOO] = {
 		"SP_SWHOO",
 		SkillName = "Eswhoo",
-		MaxLv = 7,
-		SpAmount = { 66, 70, 74, 78, 82, 86, 90 },
+		MaxLv = 10,
+		SpAmount = { 66, 70, 74, 78, 82, 86, 90, 94, 98, 102 },
 		bSeperateLv = true,
-		AttackRange = { 9, 9, 9, 9, 9, 9, 9 },
+		AttackRange = { 9, 9, 9, 9, 9, 9, 9, 9, 9, 9 },
 		_NeedSkillList = {
 			{ SKID.SP_SPA, 3 }
 		}
@@ -12731,10 +12732,316 @@ SKILL_INFO_LIST = {
 	},
 	[SKID.SJ_FALLINGSTAR_ATK2] = {
 		"SJ_FALLINGSTAR_ATK2",
-		SkillName = "Falling Star Attack 2",
+		SkillName = "Falling Star",
 		MaxLv = 1,
 		SpAmount = { 0, 0, 0, 0, 0 },
 		bSeperateLv = false,
 		AttackRange = { 1, 1, 1, 1, 1 }
 	},
+	[SKID.SJ_FALLINGSTAR_ATK] = {
+		"SJ_FALLINGSTAR_ATK",
+		SkillName = "Falling Star",
+		MaxLv = 1,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 }
+	},
+	[SKID.NV_BREAKTHROUGH] = {
+		"NV_BREAKTHROUGH",
+		SkillName = "Breakthrough",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {}
+	},
+	[SKID.NV_HELPANGEL] = {
+		"NV_HELPANGEL",
+		SkillName = "Angel, help Me!",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {}
+	},
+	[SKID.NV_TRANSCENDENCE] = {
+		"NV_TRANSCENDENCE",
+		SkillName = "Transcendence",
+		MaxLv = 5,
+		SpAmount = { 0, 0, 0, 0, 0 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {}
+	},
+	[SKID.SR_SKYNETBLOW] = {
+		"SR_SKYNETBLOW",
+		SkillName = "Sky Net Blow",
+		MaxLv = 5,
+		SpAmount = { 12, 14, 16, 18, 20 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SR_DRAGONCOMBO, 3 }
+		}
+	},
+	[SKID.SR_LIGHTNINGWALK] = {
+		"SR_LIGHTNINGWALK",
+		SkillName = "Lightning Walk",
+		MaxLv = 5,
+		SpAmount = { 40, 40, 40, 40, 40 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SR_WINDMILL, 1 }
+		}
+	},
+	[SKID.SR_GATEOFHELL] = {
+		"SR_GATEOFHELL",
+		SkillName = "Gate of Hell",
+		MaxLv = 10,
+		SpAmount = { 100, 100, 100, 100, 100, 100, 100, 100, 100, 100 },
+		bSeperateLv = true,
+		AttackRange = { 7, 7, 7, 7, 7, 7, 7, 7, 7, 7 },
+		_NeedSkillList = {
+			{ SKID.SR_TIGERCANNON, 5 },
+			{ SKID.SR_RAMPAGEBLASTER, 1 }
+		}
+	},
+	[SKID.SR_GENTLETOUCH_CHANGE] = {
+		"SR_GENTLETOUCH_CHANGE",
+		SkillName = "Gentle Touch - Change",
+		MaxLv = 5,
+		SpAmount = { 40, 50, 60, 70, 80 },
+		bSeperateLv = true,
+		AttackRange = { 2, 2, 2, 2, 2 },
+		_NeedSkillList = {
+			{ SKID.SR_GENTLETOUCH_QUIET, 1 }, 
+			{ SKID.SR_GENTLETOUCH_CURE, 1 }, 
+			{ SKID.SR_GENTLETOUCH_ENERGYGAIN, 3 }
+		}
+	},
+	[SKID.SR_EARTHSHAKER] = {
+		"SR_EARTHSHAKER",
+		SkillName = "Earth Shaker",
+		MaxLv = 5,
+		SpAmount = { 36, 40, 44, 48, 52 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SR_DRAGONCOMBO, 3 }
+		}
+	},
+	[SKID.SR_KNUCKLEARROW] = {
+		"SR_KNUCKLEARROW",
+		SkillName = "Knuckle Arrow",
+		MaxLv = 10,
+		SpAmount = { 12, 14, 16, 18, 20, 22, 24, 26, 28, 30 },
+		bSeperateLv = false,
+		AttackRange = { 7, 7, 8, 8, 9, 9, 10, 10, 11, 11 },
+		_NeedSkillList = {
+			{ SKID.SR_LIGHTNINGWALK, 1 }
+		}
+	},
+	[SKID.SR_ASSIMILATEPOWER] = {
+		"SR_ASSIMILATEPOWER",
+		SkillName = "Power Absorb",
+		MaxLv = 1,
+		SpAmount = { 10 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {
+			{ SKID.MO_ABSORBSPIRITS, 1 },
+			{ SKID.SR_POWERVELOCITY, 1 }
+		}
+	},
+	[SKID.SR_GENTLETOUCH_QUIET] = {
+		"SR_GENTLETOUCH_QUIET",
+		SkillName = "Gentle Touch Silence",
+		MaxLv = 5,
+		SpAmount = { 20, 25, 30, 35, 40 },
+		bSeperateLv = true,
+		AttackRange = { 2, 2, 2, 2, 2 },
+		_NeedSkillList = {}
+	},
+	[SKID.SR_DRAGONCOMBO] = {
+		"SR_DRAGONCOMBO",
+		SkillName = "Dragon Combo",
+		MaxLv = 10,
+		SpAmount = { 3, 4, 5, 6, 7, 8, 9, 10, 11, 12 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.MO_TRIPLEATTACK, 5 }
+		}
+	},
+	[SKID.SR_RIDEINLIGHTNING] = {
+		"SR_RIDEINLIGHTNING",
+		SkillName = "Ride in Lightning",
+		MaxLv = 5,
+		SpAmount = { 40, 50, 60, 70, 80 },
+		bSeperateLv = true,
+		AttackRange = { 11, 11, 11, 11, 11 },
+		_NeedSkillList = {
+			{ SKID.MO_FINGEROFFENSIVE, 3 }
+		}
+	},
+	[SKID.SR_HOWLINGOFLION] = {
+		"SR_HOWLINGOFLION",
+		SkillName = "Howling of Lion",
+		MaxLv = 5,
+		SpAmount = { 80, 90, 100, 110, 120 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SR_RIDEINLIGHTNING, 3 },
+			{ SKID.SR_ASSIMILATEPOWER, 1 }
+		}
+	},
+	[SKID.SR_TIGERCANNON] = {
+		"SR_TIGERCANNON",
+		SkillName = "Tiger Cannon",
+		MaxLv = 10,
+		SpAmount = { 30, 35, 40, 45, 50, 55, 60, 65, 70, 75 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SR_FALLENEMPIRE, 3 }
+		}
+	},
+	[SKID.SR_CRESCENTELBOW] = {
+		"SR_CRESCENTELBOW",
+		SkillName = "Crescent Elbow",
+		MaxLv = 5,
+		SpAmount = { 80, 80, 80, 80, 80 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SR_WINDMILL, 1 }
+		}
+	},
+	[SKID.SR_RAISINGDRAGON] = {
+		"SR_RAISINGDRAGON",
+		SkillName = "Rising Dragon",
+		MaxLv = 10,
+		SpAmount = { 120, 120, 120, 120, 120, 120, 120, 120, 120, 120 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.MO_CALLSPIRITS, 5 },
+			{ SKID.SR_POWERVELOCITY, 1 }
+		}
+	},
+	[SKID.SR_POWERVELOCITY] = {
+		"SR_POWERVELOCITY",
+		SkillName = "Power Implantation",
+		MaxLv = 1,
+		SpAmount = { 50 },
+		bSeperateLv = false,
+		AttackRange = { 3 },
+		_NeedSkillList = {
+			{ SKID.MO_CALLSPIRITS, 5 }
+		}
+	},
+	[SKID.SR_GENTLETOUCH_ENERGYGAIN] = {
+		"SR_GENTLETOUCH_ENERGYGAIN",
+		SkillName = "Gentle Touch-Energy Gain",
+		MaxLv = 5,
+		SpAmount = { 40, 50, 60, 70, 80 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SR_GENTLETOUCH_CURE, 1 }
+		}
+	},
+	[SKID.SR_FALLENEMPIRE] = {
+		"SR_FALLENEMPIRE",
+		SkillName = "Fallen Empire",
+		MaxLv = 10,
+		SpAmount = { 18, 21, 24, 27, 30, 33, 36, 39, 42, 45 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1, 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SR_DRAGONCOMBO, 3 }
+		}
+	},
+	[SKID.SR_WINDMILL] = {
+		"SR_WINDMILL",
+		SkillName = "Windmill",
+		MaxLv = 1,
+		SpAmount = { 45 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {
+			{ SKID.SR_CURSEDCIRCLE, 1 }
+		}
+	},
+	[SKID.SR_GENTLETOUCH_CURE] = {
+		"SR_GENTLETOUCH_CURE",
+		SkillName = "Gentle Touch-Cure",
+		MaxLv = 5,
+		SpAmount = { 40, 50, 60, 70, 80 },
+		bSeperateLv = false,
+		AttackRange = { 2, 2, 2, 2, 2 },
+		_NeedSkillList = {
+			{ SKID.SR_GENTLETOUCH_QUIET, 1 }
+		}
+	},
+	[SKID.SR_GENTLETOUCH_REVITALIZE] = {
+		"SR_GENTLETOUCH_REVITALIZE",
+		SkillName = "Gentle Touch-Revitalize",
+		MaxLv = 5,
+		SpAmount = { 40, 50, 60, 70, 80 },
+		bSeperateLv = true,
+		AttackRange = { 2, 2, 2, 2, 2 },
+		_NeedSkillList = {
+			{ SKID.SR_GENTLETOUCH_QUIET, 1 }, 
+			{ SKID.SR_GENTLETOUCH_CURE, 1 }, 
+			{ SKID.SR_GENTLETOUCH_ENERGYGAIN, 3 }
+		}
+	},
+	[SKID.SR_CURSEDCIRCLE] = {
+		"SR_CURSEDCIRCLE",
+		SkillName = "Cursed Circle",
+		MaxLv = 5,
+		SpAmount = { 40, 60, 80, 100, 120 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.MO_BLADESTOP, 2 }
+		}
+	},
+	[SKID.SR_RAMPAGEBLASTER] = {
+		"SR_RAMPAGEBLASTER",
+		SkillName = "Rampage Blaster",
+		MaxLv = 5,
+		SpAmount = { 100, 100, 100, 100, 100 },
+		bSeperateLv = false,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SR_EARTHSHAKER, 2 }
+		}
+	},
+	[SKID.SR_FLASHCOMBO] = {
+		"SR_FLASHCOMBO",
+		SkillName = "Flash Combo",
+		MaxLv = 5,
+		SpAmount = { 65, 65, 65, 65, 65 },
+		bSeperateLv = true,
+		AttackRange = { 1, 1, 1, 1, 1 },
+		_NeedSkillList = {
+			{ SKID.SR_DRAGONCOMBO, 3 },
+			{ SKID.SR_FALLENEMPIRE, 3 },
+			{ SKID.SR_SKYNETBLOW, 1 },
+			{ SKID.SR_TIGERCANNON, 5 }
+		}
+	},
+	[SKID.RK_LUXANIMA] = {
+		"RK_LUXANIMA";
+		SkillName = "Lux Anima",
+		MaxLv = 1,
+		SpAmount = { 0 },
+		bSeperateLv = false,
+		AttackRange = { 1 },
+		_NeedSkillList = {}
+	}
 }
