@@ -2411,3 +2411,13 @@ ra_in01.gnd#ra_in01.gnd#
 ra_in01.gat#ra_in01.gat#
 ra_in01.rsw#ra_in01.rsw#
 유저인터페이스\map\ra_in01.bmp#유저인터페이스\map\1@zombie.bmp#
+
+s_atelier.gnd#s_atelier.gnd#
+s_atelier.gat#s_atelier.gat#
+s_atelier.rsw#s_atelier.rsw#
+유저인터페이스\map\s_atelier.bmp#유저인터페이스\map\1@zombie.bmp#
+
+ma_in01.gnd#ma_in01.gnd#
+ma_in01.gat#ma_in01.gat#
+ma_in01.rsw#ma_in01.rsw#
+유저인터페이스\map\ma_in01.bmp#유저인터페이스\map\1@zombie.bmp#
