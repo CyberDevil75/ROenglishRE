@@ -1,0 +1,636 @@
+_DressHeadPaletteList_f = {
+	{ "Color 0", 0 },
+	{ "Color 1", 1 },
+	{ "Color 2", 2 },
+	{ "Color 3", 3 },
+	{ "Color 4", 4 },
+	{ "Color 5", 5 },
+	{ "Color 6", 6 },
+	{ "Color 7", 7 },
+	{ "Color 8", 8 },
+	{ "Color 9", 9 },
+	{ "Color 10", 10 },
+	{ "Color 11", 11 },
+	{ "Color 12", 12 },
+	{ "Color 13", 13 },
+	{ "Color 14", 14 },
+	{ "Color 15", 15 },
+	{ "Color 16", 16 },
+	{ "Color 17", 17 },
+	{ "Color 18", 18 },
+	{ "Color 19", 19 },
+	{ "Color 20", 20 },
+	{ "Color 21", 21 },
+	{ "Color 22", 22 },
+	{ "Color 23", 23 },
+	{ "Color 24", 24 },
+	{ "Color 25", 25 },
+	{ "Color 26", 26 },
+	{ "Color 27", 27 },
+	{ "Color 28", 28 },
+	{ "Color 29", 29 },
+	{ "Color 30", 30 },
+	{ "Color 31", 31 },
+	{ "Color 32", 32 },
+	{ "Color 33", 33 }
+}
+_DressHeadPaletteList_m = {
+	{ "Color 0", 0 },
+	{ "Color 1", 1 },
+	{ "Color 2", 2 },
+	{ "Color 3", 3 },
+	{ "Color 4", 4 },
+	{ "Color 5", 5 },
+	{ "Color 6", 6 },
+	{ "Color 7", 7 },
+	{ "Color 8", 8 },
+	{ "Color 9", 9 },
+	{ "Color 10", 10 },
+	{ "Color 11", 11 },
+	{ "Color 12", 12 },
+	{ "Color 13", 13 },
+	{ "Color 14", 14 },
+	{ "Color 15", 15 },
+	{ "Color 16", 16 },
+	{ "Color 17", 17 },
+	{ "Color 18", 18 },
+	{ "Color 19", 19 },
+	{ "Color 20", 20 },
+	{ "Color 21", 21 },
+	{ "Color 22", 22 },
+	{ "Color 23", 23 },
+	{ "Color 24", 24 },
+	{ "Color 25", 25 },
+	{ "Color 26", 26 },
+	{ "Color 27", 27 },
+	{ "Color 28", 28 },
+	{ "Color 29", 29 },
+	{ "Color 30", 30 },
+	{ "Color 31", 31 },
+	{ "Color 32", 32 },
+	{ "Color 33", 33 }
+}
+_DressBodyPaletteList_f = {
+	{ "Color 0", 0 },
+	{ "Color 1", 1 },
+	{ "Color 2", 2 },
+	{ "Color 3", 3 },
+	{ "Color 4", 4 },
+	{ "Color 5", 5 },
+	{ "Color 6", 6 },
+	{ "Color 7", 7 },
+	{ "Color 8", 8 },
+	{ "Color 9", 9 },
+	{ "Color 10", 10 },
+	{ "Color 11", 11 },
+	{ "Color 12", 12 },
+	{ "Color 13", 13 },
+	{ "Color 14", 14 },
+	{ "Color 15", 15 },
+	{ "Color 16", 16 },
+	{ "Color 17", 17 },
+	{ "Color 18", 18 },
+	{ "Color 19", 19 },
+	{ "Color 20", 20 },
+	{ "Color 21", 21 },
+	{ "Color 22", 22 },
+	{ "Color 23", 23 },
+	{ "Color 24", 24 },
+	{ "Color 25", 25 },
+	{ "Color 26", 26 },
+	{ "Color 27", 27 },
+	{ "Color 28", 28 },
+	{ "Color 29", 29 },
+	{ "Color 30", 30 },
+	{ "Color 31", 31 },
+	{ "Color 32", 32 },
+	{ "Color 33", 33 },
+	{ "Color 34", 34 },
+	{ "Color 35", 35 }
+}
+_DressBodyPaletteList_m = {
+	{ "Color 0", 0 },
+	{ "Color 1", 1 },
+	{ "Color 2", 2 },
+	{ "Color 3", 3 },
+	{ "Color 4", 4 },
+	{ "Color 5", 5 },
+	{ "Color 6", 6 },
+	{ "Color 7", 7 },
+	{ "Color 8", 8 },
+	{ "Color 9", 9 },
+	{ "Color 10", 10 },
+	{ "Color 11", 11 },
+	{ "Color 12", 12 },
+	{ "Color 13", 13 },
+	{ "Color 14", 14 },
+	{ "Color 15", 15 },
+	{ "Color 16", 16 },
+	{ "Color 17", 17 },
+	{ "Color 18", 18 },
+	{ "Color 19", 19 },
+	{ "Color 20", 20 },
+	{ "Color 21", 21 },
+	{ "Color 22", 22 },
+	{ "Color 23", 23 },
+	{ "Color 24", 24 },
+	{ "Color 25", 25 },
+	{ "Color 26", 26 },
+	{ "Color 27", 27 },
+	{ "Color 28", 28 },
+	{ "Color 29", 29 },
+	{ "Color 30", 30 },
+	{ "Color 31", 31 },
+	{ "Color 32", 32 },
+	{ "Color 33", 33 },
+	{ "Color 34", 34 },
+	{ "Color 35", 35 }
+}
+_DressHeadstyleList_f = {
+	{ "Style 1", 1 },
+	{ "Style 2", 2 },
+	{ "Style 3", 3 },
+	{ "Style 4", 4 },
+	{ "Style 5", 5 },
+	{ "Style 6", 6 },
+	{ "Style 7", 7 },
+	{ "Style 8", 8 },
+	{ "Style 9", 9 },
+	{ "Style 10", 10 },
+	{ "Style 11", 11 },
+	{ "Style 12", 12 },
+	{ "Style 13", 13 },
+	{ "Style 14", 14 },
+	{ "Style 15", 15 },
+	{ "Style 16", 16 },
+	{ "Style 17", 17 },
+	{ "Style 18", 18 },
+	{ "Style 19", 19 },
+	{ "Style 20", 20 },
+	{ "Style 21", 21 },
+	{ "Style 22", 22 },
+	{ "Style 23", 23 },
+	{ "Style 24", 24 },
+	{ "Style 25", 25 },
+	{ "Style 26", 26 },
+	{ "Style 27", 27 },
+	{ "Style 28", 28 },
+	{ "Style 29", 29 },
+	{ "Style 30", 30 },
+	{ "Style 31", 31 },
+	{ "Style 32", 32 },
+	{ "Style 33", 33 },
+	{ "Style 34", 34 },
+	{ "Style 35", 35 },
+	{ "Style 36", 36 },
+	{ "Style 37", 37 },
+	{ "Style 38", 38 },
+	{ "Style 39", 39 },
+	{ "Style 40", 40 },
+	{ "Style 41", 41 },
+	{ "Style 42", 42 },
+	{ "Style 43", 43 },
+	{ "Style 44", 44 },
+	{ "Style 45", 45 },
+	{ "Style 46", 46 },
+	{ "Style 47", 47 },
+	{ "Style 48", 48 },
+	{ "Style 49", 49 },
+	{ "Style 50", 50 },
+	{ "Style 51", 51 },
+	{ "Style 52", 52 },
+	{ "Style 53", 53 },
+	{ "Style 54", 54 },
+	{ "Style 55", 55 },
+	{ "Style 56", 56 },
+	{ "Style 57", 57 },
+	{ "Style 58", 58 },
+	{ "Style 59", 59 },
+	{ "Style 60", 60 },
+	{ "Style 61", 61 },
+	{ "Style 62", 62 },
+	{ "Style 63", 63 },
+	{ "Style 64", 64 },
+	{ "Style 65", 65 },
+	{ "Style 66", 66 },
+	{ "Style 67", 67 },
+	{ "Style 68", 68 },
+	{ "Style 69", 69 },
+	{ "Style 70", 70 },
+	{ "Style 71", 71 },
+	{ "Style 72", 72 },
+	{ "Style 73", 73 },
+	{ "Style 74", 74 },
+	{ "Style 75", 75 },
+	{ "Style 76", 76 },
+	{ "Style 77", 77 },
+	{ "Style 78", 78 },
+	{ "Style 79", 79 },
+	{ "Style 80", 80 },
+	{ "Style 81", 81 },
+	{ "Style 82", 82 },
+	{ "Style 83", 83 },
+	{ "Style 84", 84 }
+}
+_DressHeadstyleList_m = {
+	{ "Style 1", 1 },
+	{ "Style 2", 2 },
+	{ "Style 3", 3 },
+	{ "Style 4", 4 },
+	{ "Style 5", 5 },
+	{ "Style 6", 6 },
+	{ "Style 7", 7 },
+	{ "Style 8", 8 },
+	{ "Style 9", 9 },
+	{ "Style 10", 10 },
+	{ "Style 11", 11 },
+	{ "Style 12", 12 },
+	{ "Style 13", 13 },
+	{ "Style 14", 14 },
+	{ "Style 15", 15 },
+	{ "Style 16", 16 },
+	{ "Style 17", 17 },
+	{ "Style 18", 18 },
+	{ "Style 19", 19 },
+	{ "Style 20", 20 },
+	{ "Style 21", 21 },
+	{ "Style 22", 22 },
+	{ "Style 23", 23 },
+	{ "Style 24", 24 },
+	{ "Style 25", 25 },
+	{ "Style 26", 26 },
+	{ "Style 27", 27 },
+	{ "Style 28", 28 },
+	{ "Style 29", 29 },
+	{ "Style 30", 30 },
+	{ "Style 31", 31 },
+	{ "Style 32", 32 },
+	{ "Style 33", 33 },
+	{ "Style 34", 34 },
+	{ "Style 35", 35 },
+	{ "Style 36", 36 },
+	{ "Style 37", 37 },
+	{ "Style 38", 38 },
+	{ "Style 39", 39 },
+	{ "Style 40", 40 },
+	{ "Style 41", 41 },
+	{ "Style 42", 42 },
+	{ "Style 43", 43 },
+	{ "Style 44", 44 },
+	{ "Style 45", 45 },
+	{ "Style 46", 46 },
+	{ "Style 47", 47 },
+	{ "Style 48", 48 },
+	{ "Style 49", 49 },
+	{ "Style 50", 50 },
+	{ "Style 51", 51 },
+	{ "Style 52", 52 },
+	{ "Style 53", 53 },
+	{ "Style 54", 54 },
+	{ "Style 55", 55 },
+	{ "Style 56", 56 },
+	{ "Style 57", 57 },
+	{ "Style 58", 58 },
+	{ "Style 59", 59 },
+	{ "Style 60", 60 },
+	{ "Style 61", 61 },
+	{ "Style 62", 62 },
+	{ "Style 63", 63 },
+	{ "Style 64", 64 },
+	{ "Style 65", 65 },
+	{ "Style 66", 66 },
+	{ "Style 67", 67 },
+	{ "Style 68", 68 },
+	{ "Style 69", 69 },
+	{ "Style 70", 70 },
+	{ "Style 71", 71 },
+	{ "Style 72", 72 },
+	{ "Style 73", 73 },
+	{ "Style 74", 74 },
+	{ "Style 75", 75 },
+	{ "Style 76", 76 },
+	{ "Style 77", 77 },
+	{ "Style 78", 78 },
+	{ "Style 79", 79 },
+	{ "Style 80", 80 },
+	{ "Style 81", 81 },
+	{ "Style 82", 82 },
+	{ "Style 83", 83 },
+	{ "Style 84", 84 }
+}
+_DressList_f = {
+	[4054] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4055] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4056] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4057] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4058] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4059] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4060] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4061] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4062] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4063] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4064] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4065] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4066] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4067] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4068] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4069] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4070] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4071] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4072] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4073] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4074] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4075] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4076] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4077] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4078] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4079] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4096] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4097] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4098] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4099] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4100] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4101] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4102] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4103] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4104] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4105] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4106] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4107] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4108] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	}
+}
+_DressList_m = {
+	[4054] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4055] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4056] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4057] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4058] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4059] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4060] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4061] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4062] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4063] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4064] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4065] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4066] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4067] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4068] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4069] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4070] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4071] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4072] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4073] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4074] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4075] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4076] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4077] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4078] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4079] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4096] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4097] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4098] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4099] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4100] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4101] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4102] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4103] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4104] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4105] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4106] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4107] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	},
+	[4108] = {
+		{ "(0) Basic", 0 },
+		{ "(1) Second Costume", 1 }
+	}
+}
